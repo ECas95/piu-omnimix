@@ -203,7 +203,9 @@ def song(name):
             sy=SYNC.get(name);lag=sy.get('lag_ms') if sy else None;song='Song.mp3';T0=None
             if lag is not None and (d/'Song.mp3').exists():
                 # measured: time in Song.mp3 = chart time + lag  ->  Song.mp3 starts at chart time -lag
-                T0=-lag/1000;res['sync']=sy.get('status')
+                # the web BMS puts every note exactly one measure (at the initial BPM) after the JSON time that `lag` is expressed in
+                # (checked on all 245 measured songs): BMS time of the song start = -lag + one measure
+                T0=-lag/1000+4*60/base;res['sync']=sy.get('status')
                 if T0<0:   # the song must be trimmed: it starts before chart time 0
                     sm=out/'Song_sync.mp3'
                     if not sm.exists():subprocess.run(['ffmpeg','-v','error','-y','-ss',str(-T0),'-i',str(d/'Song.mp3'),'-q:a','2',str(sm)],check=True)
