@@ -1,0 +1,15 @@
+{
+  "pid": 43176,
+  "image": "D:\\Pump It Up Data\\PIU\\final_v363\\cabinet\\teclado_capa.qcow2",
+  "endpoint": "nbd://172.29.224.1:10864",
+  "args": [
+    "C:\\Program Files\\qemu\\qemu-nbd.exe",
+    "--bind=172.29.224.1",
+    "--port=10864",
+    "--format=qcow2",
+    "--cache=writeback",
+    "D:\\Pump It Up Data\\PIU\\final_v363\\cabinet\\teclado_capa.qcow2"
+  ],
+  "started_unix": 1794095744.1903646,
+  "stopped_unix": 1794095745.091178
+}

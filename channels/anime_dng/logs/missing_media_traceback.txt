@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "<stdin>", line 5, in <module>
+  File "E:\Pump It Up Data\PIU\anime_channel_dng\prepare_media.py", line 136, in run_song
+    with _store.song():return render_song(plan_path)
+                              ^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Pump It Up Data\PIU\anime_channel_dng\prepare_media.py", line 149, in render_song
+    previous=read_json(timing_path)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Pump It Up Data\PIU\anime_channel_dng\common.py", line 19, in read_json
+    return json.loads(Path(path).read_text(encoding='utf-8-sig'))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 1058, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\Pump It Up Data\\PIU\\anime_channel_dng\\media_timing\\ecc517d2f2168bef599695cb.json'

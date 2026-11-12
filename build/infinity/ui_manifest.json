@@ -1,0 +1,2353 @@
+{
+ "prepared": true,
+ "installed": false,
+ "channels": [
+  [
+   68,
+   "PUMP IT UP PRO"
+  ],
+  [
+   69,
+   "PUMP IT UP PRO 2"
+  ],
+  [
+   70,
+   "PUMP IT UP INFINITY"
+  ],
+  [
+   71,
+   "SABIN SOUND STAR"
+  ],
+  [
+   72,
+   "EZ2ON REBOOT R"
+  ],
+  [
+   73,
+   "BEATMANIA IIDX 1"
+  ],
+  [
+   74,
+   "BEATMANIA IIDX 2"
+  ],
+  [
+   75,
+   "BEATMANIA IIDX 3"
+  ],
+  [
+   76,
+   "BEATMANIA IIDX 4"
+  ],
+  [
+   77,
+   "CINDERELLA GIRLS"
+  ],
+  [
+   78,
+   "MAIN SELECTIONS"
+  ]
+ ],
+ "records": [
+  {
+   "path": "/CONFIG/SFX/SELECT.TXT",
+   "bytes": 3745,
+   "sha256": "4f92ed2831424c1f0568dab3f9dcc093a61aba2ce32bf05372c0420af21c64bb"
+  },
+  {
+   "path": "/USER_INTERFACE/LOADING/HD/PRIME_29.G",
+   "bytes": 2764808,
+   "sha256": "cda71921023e28486b8ab37755d6bb8bd191cfd3fbd268d79dcebdcf9a776835"
+  },
+  {
+   "path": "/USER_INTERFACE/LOADING/HD/PRIME_30.G",
+   "bytes": 2764808,
+   "sha256": "06a21103473defc09039e1fbfa44c16fe778b351816b0584733001fde3122baa"
+  },
+  {
+   "path": "/USER_INTERFACE/LOADING/HD/PRIME_31.G",
+   "bytes": 2764808,
+   "sha256": "afbd3ed1155406d64669d5728a206c53b868a988f926ce1b62586ec75e354a69"
+  },
+  {
+   "path": "/USER_INTERFACE/LOADING/HD/PRIME_32.G",
+   "bytes": 2764808,
+   "sha256": "0c6aead5920b2d4f97dc9fcce95e5e7109f31b71ee565a73f5cdd70a6bcfaf42"
+  },
+  {
+   "path": "/USER_INTERFACE/LOADING/HD/PRIME_33.G",
+   "bytes": 2764808,
+   "sha256": "36960d412c0e499c42c909af572c3ddcaedb6bdb84a0c03396fd67b9d12b419e"
+  },
+  {
+   "path": "/USER_INTERFACE/LOADING/HD/PRIME_34.G",
+   "bytes": 2764808,
+   "sha256": "485aaf7e2ac0b2258487420bea2c2394b247453c867bb4a7398941ffd7e08ff2"
+  },
+  {
+   "path": "/USER_INTERFACE/LOADING/HD/PRIME_35.G",
+   "bytes": 2764808,
+   "sha256": "dae510d347ece44f39f7be752d3ebc6f921fb5eb64192c75774eba3f2b7c9ea1"
+  },
+  {
+   "path": "/USER_INTERFACE/LOADING/HD/PRIME_36.G",
+   "bytes": 2764808,
+   "sha256": "07b2f4fecfadb18ab50a51d2bb811921de6c769e53bd91e0c0f4b5567dabe161"
+  },
+  {
+   "path": "/USER_INTERFACE/LOADING/HD/PRIME_37.G",
+   "bytes": 2764808,
+   "sha256": "c9b9ae516e7b9cde0d9f44ec7cb9698fc240df5ef824f9a1025924ed65567c7e"
+  },
+  {
+   "path": "/USER_INTERFACE/LOADING/HD/PRIME_38.G",
+   "bytes": 2764808,
+   "sha256": "6552e402ec7b06ad001893887cc60f86a7a2887502eb501934e0903894b7fffb"
+  },
+  {
+   "path": "/USER_INTERFACE/LOADING/SD/PRIME_29.G",
+   "bytes": 921608,
+   "sha256": "40fad3f968888236e47dfd4f0c5dbc3306be9458c5777b7bfc2cd456edb48bae"
+  },
+  {
+   "path": "/USER_INTERFACE/LOADING/SD/PRIME_30.G",
+   "bytes": 921608,
+   "sha256": "5c3bb020be4702eb20fa69a902f88caaab3697dd594624a5d86e387afbe1c5c7"
+  },
+  {
+   "path": "/USER_INTERFACE/LOADING/SD/PRIME_31.G",
+   "bytes": 921608,
+   "sha256": "5e3c7f286204b19d2e7ac215c3747591b50f57af2fbb5e143f2097fc4287b0b7"
+  },
+  {
+   "path": "/USER_INTERFACE/LOADING/SD/PRIME_32.G",
+   "bytes": 921608,
+   "sha256": "8c550140149d27100d80624d79c07e155658cad284577182c9f6241bf31310e2"
+  },
+  {
+   "path": "/USER_INTERFACE/LOADING/SD/PRIME_33.G",
+   "bytes": 921608,
+   "sha256": "77c68df7a93ae5729171f4eca48acc010c698b7f1897afd87e1c23394389adf1"
+  },
+  {
+   "path": "/USER_INTERFACE/LOADING/SD/PRIME_34.G",
+   "bytes": 921608,
+   "sha256": "f5d8df3a15643eceae8df6bab60a65e4b138dfddd8203c5cebafb570701cfa53"
+  },
+  {
+   "path": "/USER_INTERFACE/LOADING/SD/PRIME_35.G",
+   "bytes": 921608,
+   "sha256": "ae5f82048a62895f90addb002aabe90d1d94bd83edeb3aea436c69583e60ed7e"
+  },
+  {
+   "path": "/USER_INTERFACE/LOADING/SD/PRIME_36.G",
+   "bytes": 921608,
+   "sha256": "2b5674e21975cec6d449f8e4a7711deea887987410817812523c0f510bb5d710"
+  },
+  {
+   "path": "/USER_INTERFACE/LOADING/SD/PRIME_37.G",
+   "bytes": 921608,
+   "sha256": "5c81e3125121f25b57413a7c523af0220b09d334c733ce7ccc5f0281a60a5283"
+  },
+  {
+   "path": "/USER_INTERFACE/LOADING/SD/PRIME_38.G",
+   "bytes": 921608,
+   "sha256": "f6f0c4249f7b271536bdf07eb53c461e85c389e5df3c4fac50556d98662d7fab"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/CN/.BGA",
+   "bytes": 15226,
+   "sha256": "1a7513ecfd1ff3d2cea7ee54551dc5c14fef3df84484b83302b548da90d9a9e4"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/CN/V45_68_HEAD.G",
+   "bytes": 65544,
+   "sha256": "8fe5e236a24c0c4721ade9ccdb6dba3880ca8e927b31eeae2996dc230ea25934"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/CN/V45_68_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "687207a89f5271442bc3e1d74e7bbf940cfdbe49eee5d5816ef9ec26cab6eb2e"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/CN/V45_69_HEAD.G",
+   "bytes": 65544,
+   "sha256": "d25a40017b0ccd1b51d0c01b5181be8bc94f1d66d50e6480fad63c9376e92a2c"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/CN/V45_69_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "4fa2d41b85f103e0cfca1dc06134184d7cff07245b41e232ab51abfeeb07b2ee"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/CN/V45_70_HEAD.G",
+   "bytes": 65544,
+   "sha256": "f5a6bc543ce9c818643656ad974611cedd72968245014b1b541fcad427ff59e2"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/CN/V45_70_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "e1c678f2e8b424472ddc32a1ce542741afb4b9f0f2def99dc8294b88fd44452c"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/CN/V45_71_HEAD.G",
+   "bytes": 65544,
+   "sha256": "7b1d90beee034860c83b05dc74594895a31c2adccf689480bcbd9321b284f983"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/CN/V45_71_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "f7a3cb8537dbc6b86e3b17d899c8f7786e70eeded9d91231391efe7fec6461ae"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/CN/V45_72_HEAD.G",
+   "bytes": 65544,
+   "sha256": "19d79532aeec0d66e4e06951261c0aa0e81a0710b5a5163c2c70c8e93a3b9f9b"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/CN/V45_72_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "9f65b776a71089d641b6833a5253fecbabca004475fbd4616fe088bd84fd1db7"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/CN/V45_73_HEAD.G",
+   "bytes": 65544,
+   "sha256": "23e313143b576a11b3bda8231c6454a4452b449e683893b1b9b16fdbcc003ee5"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/CN/V45_73_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "78dc299b66b02fa8329733d991967210b5a9dde0cf679b3c84914e0a3febc3e1"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/CN/V45_74_HEAD.G",
+   "bytes": 65544,
+   "sha256": "a6f3c3640e9bca20a19b43b8f1550149571baf0b087880bc9c427f2619abd01a"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/CN/V45_74_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "b1545f80e9e0858b53bef33b71c2f6712fc56567d21de598791c5e4f3289990a"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/CN/V45_75_HEAD.G",
+   "bytes": 65544,
+   "sha256": "8e5f65fa2645ee00091ee6406d2abfb27c9e76ac5254dc52c6ad361d9505a6e6"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/CN/V45_75_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "904cba86e473ee70fd723630416edfc03b9f460c28f0369777cecf1f39e49e98"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/CN/V45_76_HEAD.G",
+   "bytes": 65544,
+   "sha256": "a269da284d8e4e0766d563b1ba67dcb16951d2be77ebec45db00ab0121de53d7"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/CN/V45_76_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "c2ab6ab2a87a85cc2e5dc0bdb643f04664aea00280dd0db94fa7f2ca39e35b68"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/CN/V45_77_HEAD.G",
+   "bytes": 65544,
+   "sha256": "d73e22439a632646e47cd61a39a41697a75fe49d96f58918a9e4b4c5e0ac1de2"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/CN/V45_77_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "849dbd6d84d56cb059ddb73b354b7de60e7c52ff1408f6c0fe67ddd0bd964b30"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/CN/V45_78_HEAD.G",
+   "bytes": 65544,
+   "sha256": "2af41983a26ab6fb47c81d439dc8efb9227b68ac27ab8c9218ad795043c5666b"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/CN/V45_78_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "c740fa3f52122e5f19d55258b469c8a819bcb1a731b7436748d73289d58bc116"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/EN/.BGA",
+   "bytes": 15226,
+   "sha256": "1a7513ecfd1ff3d2cea7ee54551dc5c14fef3df84484b83302b548da90d9a9e4"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/EN/V45_68_HEAD.G",
+   "bytes": 65544,
+   "sha256": "8fe5e236a24c0c4721ade9ccdb6dba3880ca8e927b31eeae2996dc230ea25934"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/EN/V45_68_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "687207a89f5271442bc3e1d74e7bbf940cfdbe49eee5d5816ef9ec26cab6eb2e"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/EN/V45_69_HEAD.G",
+   "bytes": 65544,
+   "sha256": "d25a40017b0ccd1b51d0c01b5181be8bc94f1d66d50e6480fad63c9376e92a2c"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/EN/V45_69_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "4fa2d41b85f103e0cfca1dc06134184d7cff07245b41e232ab51abfeeb07b2ee"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/EN/V45_70_HEAD.G",
+   "bytes": 65544,
+   "sha256": "f5a6bc543ce9c818643656ad974611cedd72968245014b1b541fcad427ff59e2"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/EN/V45_70_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "e1c678f2e8b424472ddc32a1ce542741afb4b9f0f2def99dc8294b88fd44452c"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/EN/V45_71_HEAD.G",
+   "bytes": 65544,
+   "sha256": "7b1d90beee034860c83b05dc74594895a31c2adccf689480bcbd9321b284f983"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/EN/V45_71_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "f7a3cb8537dbc6b86e3b17d899c8f7786e70eeded9d91231391efe7fec6461ae"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/EN/V45_72_HEAD.G",
+   "bytes": 65544,
+   "sha256": "19d79532aeec0d66e4e06951261c0aa0e81a0710b5a5163c2c70c8e93a3b9f9b"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/EN/V45_72_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "9f65b776a71089d641b6833a5253fecbabca004475fbd4616fe088bd84fd1db7"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/EN/V45_73_HEAD.G",
+   "bytes": 65544,
+   "sha256": "23e313143b576a11b3bda8231c6454a4452b449e683893b1b9b16fdbcc003ee5"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/EN/V45_73_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "78dc299b66b02fa8329733d991967210b5a9dde0cf679b3c84914e0a3febc3e1"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/EN/V45_74_HEAD.G",
+   "bytes": 65544,
+   "sha256": "a6f3c3640e9bca20a19b43b8f1550149571baf0b087880bc9c427f2619abd01a"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/EN/V45_74_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "b1545f80e9e0858b53bef33b71c2f6712fc56567d21de598791c5e4f3289990a"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/EN/V45_75_HEAD.G",
+   "bytes": 65544,
+   "sha256": "8e5f65fa2645ee00091ee6406d2abfb27c9e76ac5254dc52c6ad361d9505a6e6"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/EN/V45_75_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "904cba86e473ee70fd723630416edfc03b9f460c28f0369777cecf1f39e49e98"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/EN/V45_76_HEAD.G",
+   "bytes": 65544,
+   "sha256": "a269da284d8e4e0766d563b1ba67dcb16951d2be77ebec45db00ab0121de53d7"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/EN/V45_76_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "c2ab6ab2a87a85cc2e5dc0bdb643f04664aea00280dd0db94fa7f2ca39e35b68"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/EN/V45_77_HEAD.G",
+   "bytes": 65544,
+   "sha256": "d73e22439a632646e47cd61a39a41697a75fe49d96f58918a9e4b4c5e0ac1de2"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/EN/V45_77_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "849dbd6d84d56cb059ddb73b354b7de60e7c52ff1408f6c0fe67ddd0bd964b30"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/EN/V45_78_HEAD.G",
+   "bytes": 65544,
+   "sha256": "2af41983a26ab6fb47c81d439dc8efb9227b68ac27ab8c9218ad795043c5666b"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/HD/EN/V45_78_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "c740fa3f52122e5f19d55258b469c8a819bcb1a731b7436748d73289d58bc116"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/CN/.BGA",
+   "bytes": 15226,
+   "sha256": "1a7513ecfd1ff3d2cea7ee54551dc5c14fef3df84484b83302b548da90d9a9e4"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/CN/V45_68_HEAD.G",
+   "bytes": 16392,
+   "sha256": "7acfba2472f2372f2d315a76118e437f381abe3e87a6b64f1c85372f5dfb0779"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/CN/V45_68_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "b2ad597729fc21bffcd1e0f5e5de770fc497ced9ed749ebca84aa373e84071c8"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/CN/V45_69_HEAD.G",
+   "bytes": 16392,
+   "sha256": "614eac01171a51f09002f6e074d53044379b7a69dd268563813d6cc84bde5009"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/CN/V45_69_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "25faa9449531689f784206d11f7ed7c979b91258cc1899db0e910933476b0598"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/CN/V45_70_HEAD.G",
+   "bytes": 16392,
+   "sha256": "55f902eb13162e0aa7b3b26b53f9c0f79231c1df49f949202ff555c1f8f8be0a"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/CN/V45_70_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "720241b2fe224ec460779863ad0fb7501907bd98a46a50eb76676b181e70c731"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/CN/V45_71_HEAD.G",
+   "bytes": 16392,
+   "sha256": "722de28d5ef60f4598e337e9b3cd9abcac2cea4086faff61d7f830553bb50760"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/CN/V45_71_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "5ad103191b455e1e675ec2a176888e08d176716c911fac5cf0a9d3644f07aa53"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/CN/V45_72_HEAD.G",
+   "bytes": 16392,
+   "sha256": "b6df86705ef7ad9065549996bd836260d0dbe9d1ced4af2eb32ed122d78de8f7"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/CN/V45_72_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "cf3df4d95025dfd703497259b29971c543dafea7cf0e497ecf98d96531a88c1b"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/CN/V45_73_HEAD.G",
+   "bytes": 16392,
+   "sha256": "51ad88d54efbbe687c6dd3e8d0e957dba6075b431c3d381991399ba45346ebf5"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/CN/V45_73_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "41bfd0817477776b82b5ba29d88f23b10f10c72a03ac11fe28d2b8f58e67b3b6"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/CN/V45_74_HEAD.G",
+   "bytes": 16392,
+   "sha256": "bb37652079b06e7ecb6283736296660f9e1c97a65c4fbbf039786dfb16761be0"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/CN/V45_74_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "f0bfd98731fd2361fcaed01ca7d553904490393312a0d924cdec4b2ba005a18b"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/CN/V45_75_HEAD.G",
+   "bytes": 16392,
+   "sha256": "85a6035414fd43cba0516cae4e063baaf8e91a3f77f5424973e29eb2de2ae474"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/CN/V45_75_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "6785c993de1f3b105510f5d96465b96e40374e01f48ff481633290b3a1888336"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/CN/V45_76_HEAD.G",
+   "bytes": 16392,
+   "sha256": "a488736147d7c417dfc7172beda214abae194d860af644f764dfb3ef7260a08e"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/CN/V45_76_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "9919ba14846e417681398622b4aeafa0a913ea7bd21872e0efd4f4739a38cdff"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/CN/V45_77_HEAD.G",
+   "bytes": 16392,
+   "sha256": "77bd31909e026463cdef1ba2235393ef116a4168d0094578037c4da06115e908"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/CN/V45_77_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "57f5c634ab94c4485724cb1d6a280e982ccbaf94f281ed7f6fd60c2a0d84cec1"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/CN/V45_78_HEAD.G",
+   "bytes": 16392,
+   "sha256": "f038b642047e4371cf6b7de312e2766fb75110b0997a6aa078566547171b16b9"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/CN/V45_78_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "e08b32107cf18be0d7bb47bd027df69bae41279ad743cc056e526d22cfa8328d"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/EN/.BGA",
+   "bytes": 15226,
+   "sha256": "1a7513ecfd1ff3d2cea7ee54551dc5c14fef3df84484b83302b548da90d9a9e4"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/EN/V45_68_HEAD.G",
+   "bytes": 16392,
+   "sha256": "7acfba2472f2372f2d315a76118e437f381abe3e87a6b64f1c85372f5dfb0779"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/EN/V45_68_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "b2ad597729fc21bffcd1e0f5e5de770fc497ced9ed749ebca84aa373e84071c8"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/EN/V45_69_HEAD.G",
+   "bytes": 16392,
+   "sha256": "614eac01171a51f09002f6e074d53044379b7a69dd268563813d6cc84bde5009"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/EN/V45_69_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "25faa9449531689f784206d11f7ed7c979b91258cc1899db0e910933476b0598"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/EN/V45_70_HEAD.G",
+   "bytes": 16392,
+   "sha256": "55f902eb13162e0aa7b3b26b53f9c0f79231c1df49f949202ff555c1f8f8be0a"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/EN/V45_70_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "720241b2fe224ec460779863ad0fb7501907bd98a46a50eb76676b181e70c731"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/EN/V45_71_HEAD.G",
+   "bytes": 16392,
+   "sha256": "722de28d5ef60f4598e337e9b3cd9abcac2cea4086faff61d7f830553bb50760"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/EN/V45_71_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "5ad103191b455e1e675ec2a176888e08d176716c911fac5cf0a9d3644f07aa53"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/EN/V45_72_HEAD.G",
+   "bytes": 16392,
+   "sha256": "b6df86705ef7ad9065549996bd836260d0dbe9d1ced4af2eb32ed122d78de8f7"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/EN/V45_72_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "cf3df4d95025dfd703497259b29971c543dafea7cf0e497ecf98d96531a88c1b"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/EN/V45_73_HEAD.G",
+   "bytes": 16392,
+   "sha256": "51ad88d54efbbe687c6dd3e8d0e957dba6075b431c3d381991399ba45346ebf5"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/EN/V45_73_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "41bfd0817477776b82b5ba29d88f23b10f10c72a03ac11fe28d2b8f58e67b3b6"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/EN/V45_74_HEAD.G",
+   "bytes": 16392,
+   "sha256": "bb37652079b06e7ecb6283736296660f9e1c97a65c4fbbf039786dfb16761be0"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/EN/V45_74_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "f0bfd98731fd2361fcaed01ca7d553904490393312a0d924cdec4b2ba005a18b"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/EN/V45_75_HEAD.G",
+   "bytes": 16392,
+   "sha256": "85a6035414fd43cba0516cae4e063baaf8e91a3f77f5424973e29eb2de2ae474"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/EN/V45_75_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "6785c993de1f3b105510f5d96465b96e40374e01f48ff481633290b3a1888336"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/EN/V45_76_HEAD.G",
+   "bytes": 16392,
+   "sha256": "a488736147d7c417dfc7172beda214abae194d860af644f764dfb3ef7260a08e"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/EN/V45_76_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "9919ba14846e417681398622b4aeafa0a913ea7bd21872e0efd4f4739a38cdff"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/EN/V45_77_HEAD.G",
+   "bytes": 16392,
+   "sha256": "77bd31909e026463cdef1ba2235393ef116a4168d0094578037c4da06115e908"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/EN/V45_77_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "57f5c634ab94c4485724cb1d6a280e982ccbaf94f281ed7f6fd60c2a0d84cec1"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/EN/V45_78_HEAD.G",
+   "bytes": 16392,
+   "sha256": "f038b642047e4371cf6b7de312e2766fb75110b0997a6aa078566547171b16b9"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_A3/SD/EN/V45_78_HEAD.SPR",
+   "bytes": 59,
+   "sha256": "e08b32107cf18be0d7bb47bd027df69bae41279ad743cc056e526d22cfa8328d"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/HD/EN/.BGA",
+   "bytes": 45746,
+   "sha256": "473526a87c951f46e2f20ed210f7ad41cb527a5410b873a529bd45d04fea35f0"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/HD/EN/FINAL_BANNER_68.G",
+   "bytes": 16777224,
+   "sha256": "afe0c28b65010c3b125cb79586c65f7002904eb64425d81326985f2d95257cf6"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/HD/EN/FINAL_BANNER_69.G",
+   "bytes": 16777224,
+   "sha256": "918e7e9e097d9f7d85834d46905cd69c2ad777aa0e5404e244c04d263737c3ce"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/HD/EN/FINAL_BANNER_70.G",
+   "bytes": 16777224,
+   "sha256": "48caf9d0daa16624ea416528211bbad8286850ddcba697c8bb3cb20f7edac7bf"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/HD/EN/FINAL_BANNER_71.G",
+   "bytes": 16777224,
+   "sha256": "95c9c83abc8476c384f84364dcb9f113f2f3df184365844040a5af1af77139f1"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/HD/EN/FINAL_BANNER_72.G",
+   "bytes": 16777224,
+   "sha256": "6dae3bc14739e9e8bce136cc6ac981cef7d9616e2ed39301d311ce5c312afb13"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/HD/EN/FINAL_BANNER_73.G",
+   "bytes": 16777224,
+   "sha256": "9356783ff63929ff63de03ba1c3940809da090577fb19ca1f81272be787aa2f8"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/HD/EN/FINAL_BANNER_74.G",
+   "bytes": 16777224,
+   "sha256": "ad2ff5e1639d90e94798af50b8b55aa2fc9344d2f82226b682b066739d0a7b91"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/HD/EN/FINAL_BANNER_75.G",
+   "bytes": 16777224,
+   "sha256": "b78c716d3a9259f3da6a56b3686be9f95f706810ace468cd0e5369a2337a86b8"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/HD/EN/FINAL_BANNER_76.G",
+   "bytes": 16777224,
+   "sha256": "e0d60429500878d0a5760711bcc9dbca65cdec8418f18c7c0d0bf61b9e20cbc8"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/HD/EN/FINAL_BANNER_77.G",
+   "bytes": 16777224,
+   "sha256": "87796ce58b18bcb93dc7180c795edfc5bfbd20d8d3f2ae2ab76d3e9fc548f561"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/HD/EN/FINAL_BANNER_78.G",
+   "bytes": 16777224,
+   "sha256": "0382ed19c81897286eec078daf3472fcc4d2d67ebb20c11c36c724bb731bc0a6"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/HD/EN/MC_CH47.SPR",
+   "bytes": 67,
+   "sha256": "87d2fb454e4ef08847e7d42e96f9a3437909d674f794242d3ce9173ae4f00655"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/HD/EN/MC_CH48.SPR",
+   "bytes": 67,
+   "sha256": "3f5cc953622d4af238bc24e98483c0280b9e7a051bd4ebbaf20d168d203450ee"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/HD/EN/MC_CH49.SPR",
+   "bytes": 67,
+   "sha256": "db26cfe5856911d0098300732246dfd6db4689e15d9fd17bcc34237409b969b2"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/HD/EN/MC_FV.SPR",
+   "bytes": 67,
+   "sha256": "1b265593a16d18b5df7228999b7cbbcd61733f0c094f9ba6461a238a18a15004"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/HD/EN/MC_INF.SPR",
+   "bytes": 67,
+   "sha256": "e1707f664c0e85454321fe28d4768d41791d816b65bad92b594a52c491153542"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/HD/EN/MC_MT.SPR",
+   "bytes": 67,
+   "sha256": "6d967a9dd4448729677d0ab7363d0f2a5813e2896ffd70bb44b2530c7eb8e720"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/HD/EN/MC_MZ.SPR",
+   "bytes": 67,
+   "sha256": "70d17942bad6b8635587fef15e907f420611edf86cdc7d2bb0cdc9b0a3ade32a"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/HD/EN/MC_NSDE.SPR",
+   "bytes": 67,
+   "sha256": "d8f17c841b02eef0b5d5a75b997c1c313f7b36d969b46fb710c75fe627f9c868"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/HD/EN/MC_RD.SPR",
+   "bytes": 67,
+   "sha256": "943212628782f6a771f028cfb54aee75787377ca084d0eab48c41fd410823546"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/HD/EN/MC_UCS.SPR",
+   "bytes": 67,
+   "sha256": "fb6fe679b44b1fa5ab18cd25df1f53e2171fbcd276014f6ff8c722e88e00986c"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/HD/EN/MC_WPF.SPR",
+   "bytes": 67,
+   "sha256": "4bd4a45304e5a7730578a5c54dd3c303a123ea20b5ba04a13961d7d92acc430f"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/SD/EN/.BGA",
+   "bytes": 45746,
+   "sha256": "8c4df7f5e06568562f931d0ba33690af302ffb390ad391ff807b11c3862365c1"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/SD/EN/FINAL_BANNER_68.G",
+   "bytes": 4194312,
+   "sha256": "a7a1e12addc9d2cde29f67ee20dca543bb84f2e7ff63ad00d3ba5b9310885400"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/SD/EN/FINAL_BANNER_69.G",
+   "bytes": 4194312,
+   "sha256": "9d8c85ef68170982b365fdcd400acdcc4aea2a6c4b7f034f767a492b74f6d0c4"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/SD/EN/FINAL_BANNER_70.G",
+   "bytes": 4194312,
+   "sha256": "3baace4b21c02b2e5dd3770c88c71604f602940b48bef8c1f6e9617c829c8c73"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/SD/EN/FINAL_BANNER_71.G",
+   "bytes": 4194312,
+   "sha256": "aebc7408232577d377d55050b5242f732849c49b235dddf9eed19b1a37d30ed7"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/SD/EN/FINAL_BANNER_72.G",
+   "bytes": 4194312,
+   "sha256": "50a206f3bbfc387645cee7228bfc5373c6f7fb294b1bb77863dda0a768902477"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/SD/EN/FINAL_BANNER_73.G",
+   "bytes": 4194312,
+   "sha256": "40b18769d788531d7518418b0bca6298a622602327160fc3056ca947a24d68ee"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/SD/EN/FINAL_BANNER_74.G",
+   "bytes": 4194312,
+   "sha256": "f4f5ca8576acefaf7b42730695cab16edd4ee96ce8c35ddc667552a27c3c4f04"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/SD/EN/FINAL_BANNER_75.G",
+   "bytes": 4194312,
+   "sha256": "d89e4411c4e2fcf0ec4ce010971ef2c46488d8c98c5c4df16c20975771088de1"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/SD/EN/FINAL_BANNER_76.G",
+   "bytes": 4194312,
+   "sha256": "5427d9ed1029532fee4fc475359883649c08e445556e8dff36f859cbe0120b21"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/SD/EN/FINAL_BANNER_77.G",
+   "bytes": 4194312,
+   "sha256": "c6fec7c21c9142c42821d4152e2ea20a5e9038012156b51baecaad47ae9a69f1"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/SD/EN/FINAL_BANNER_78.G",
+   "bytes": 4194312,
+   "sha256": "3183553279a8a851b67b2364df99ebb5fc928f2aa976650b23d52fc32468acdd"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/SD/EN/MC_CH47.SPR",
+   "bytes": 65,
+   "sha256": "ebab108b3c2cc020367d06d200dca0822d56e35460015824681977675b680f55"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/SD/EN/MC_CH48.SPR",
+   "bytes": 65,
+   "sha256": "55a69052aed10091b15fd2a69a48342f43fc021e077ddb38b33e90f8bef7051e"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/SD/EN/MC_CH49.SPR",
+   "bytes": 65,
+   "sha256": "1d4bd90c22e6a692cf9a3759cd15052e5ac86b3667572587b5845d7bc2c4642b"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/SD/EN/MC_FV.SPR",
+   "bytes": 65,
+   "sha256": "d81b16418885b51cf09e2f383098443ab0a245dad949f9efeeeb6449339e1a0e"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/SD/EN/MC_INF.SPR",
+   "bytes": 65,
+   "sha256": "ddde70d79da0649c097ff4eb1a32573752b4e428f834662438c83326342e77f2"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/SD/EN/MC_MT.SPR",
+   "bytes": 65,
+   "sha256": "8e04622a05346cb61aa2304df42db80cf43fad04f78ae131b64aee5c20f99af8"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/SD/EN/MC_MZ.SPR",
+   "bytes": 65,
+   "sha256": "c8fa5bb3c9f4f16dab0f80604a098a69ba86c907c50ecc9eba50c59867e18873"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/SD/EN/MC_NSDE.SPR",
+   "bytes": 65,
+   "sha256": "15ee244f7e3c59fcea7f13a24f99f7b8d707ccfbe0287e8690b3c3de5b26b88f"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/SD/EN/MC_RD.SPR",
+   "bytes": 65,
+   "sha256": "fd1021204c439d216cbaaabb29be44bf96d26da6243497c8b3e0da1b17cfb943"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/SD/EN/MC_UCS.SPR",
+   "bytes": 65,
+   "sha256": "1b4dc457ed7c29c08b2039ac60a2076bdb70a1a77d034c99cbdc0f6cc613cb67"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C/SD/EN/MC_WPF.SPR",
+   "bytes": 65,
+   "sha256": "476e3f919bd01c5cb25e8c099499b365a73a36ac4a6cfc477faf062735dd72c8"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/CN/.BGA",
+   "bytes": 14726,
+   "sha256": "0d4fa24dbd76648ed498e797afb999c17af8afa22b339a896563faa6aee9e05e"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/CN/V45_68_DESC.G",
+   "bytes": 131080,
+   "sha256": "dcda3ed471714c307e44a5eaf8a4e8e822e5e587828124d8df32cd1149bb8b27"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/CN/V45_68_DESC.SPR",
+   "bytes": 59,
+   "sha256": "ed10ab65efd3b235ce74f854ce5295dfc43f80bd093b50db82f9642097ffa144"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/CN/V45_69_DESC.G",
+   "bytes": 131080,
+   "sha256": "77143fa0ad77963cf8db5db78da6c13932c5282ce1e0d56e9f501f9a5cdfd561"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/CN/V45_69_DESC.SPR",
+   "bytes": 59,
+   "sha256": "6bad943177270e60d1b38aff09fe23cf0494362e8e928933613439312af4552a"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/CN/V45_70_DESC.G",
+   "bytes": 131080,
+   "sha256": "4859d01a65b61ce70221aa99ca451ecbee519fa38b5acc9dab48ad09f16e9421"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/CN/V45_70_DESC.SPR",
+   "bytes": 59,
+   "sha256": "11cbee0d54ae4036bec77dc9aad8743f37c1eafd88466972df91f30c24217faa"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/CN/V45_71_DESC.G",
+   "bytes": 131080,
+   "sha256": "e93c0962fc9a4125f924131ff46985597f83f12a8fc3d020d5a6a5d9a9398111"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/CN/V45_71_DESC.SPR",
+   "bytes": 59,
+   "sha256": "df84c964e08bfaf706659e5a339dea005a93f5cc781c06f359a36a05ba3f16e3"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/CN/V45_72_DESC.G",
+   "bytes": 131080,
+   "sha256": "8698c67b13daf32b05e8da5d4e5523657c9f5b8511c223b17e500e419074fab5"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/CN/V45_72_DESC.SPR",
+   "bytes": 59,
+   "sha256": "6a232fe8e1c2bc06775af559615bb98314fb418e833382506fce72eaffe29756"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/CN/V45_73_DESC.G",
+   "bytes": 131080,
+   "sha256": "0b82651ffe06d31a05e0c511b84ee70e7fd7be1fe68cf187b8b70f3d67521980"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/CN/V45_73_DESC.SPR",
+   "bytes": 59,
+   "sha256": "5212cb1f4923a56f3ecaa6e608b044f1e704cdd4708d0b9e422a0be58412e1b7"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/CN/V45_74_DESC.G",
+   "bytes": 131080,
+   "sha256": "59ec5b5a98b2b405abb776f3ddfdd2ff013deddff777410f2b35afc64b20ec7d"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/CN/V45_74_DESC.SPR",
+   "bytes": 59,
+   "sha256": "e0e8f2b77a22a7ef39ff06d389b6999b04c036a68d2f690ddcda52a2715ec681"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/CN/V45_75_DESC.G",
+   "bytes": 131080,
+   "sha256": "f8561397f08cc89813b0d28b32c07423c202e1095d32fe3adb5893895ad5b27e"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/CN/V45_75_DESC.SPR",
+   "bytes": 59,
+   "sha256": "a38b6c70ca571dc2e1d24f423fab5c0ad4767640c659783606fb26e53d1bcc4f"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/CN/V45_76_DESC.G",
+   "bytes": 131080,
+   "sha256": "e8c9928195b20dea4bd924fa346704287edeafcf868acdd3b03e367ac50a49ca"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/CN/V45_76_DESC.SPR",
+   "bytes": 59,
+   "sha256": "14b19110c9237714e6d0c52e56fc89b82d0d1b70ea663e58980c24349966c675"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/CN/V45_77_DESC.G",
+   "bytes": 131080,
+   "sha256": "979dd2eade4eb4353a6a7035ea6874f0f656a8afac0e6c26abd9c6f58bdf5c77"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/CN/V45_77_DESC.SPR",
+   "bytes": 59,
+   "sha256": "332041eedfa9ff92912a4acef8e59ed43f51599b24b3bd8328ed0b60a93faf53"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/CN/V45_78_DESC.G",
+   "bytes": 131080,
+   "sha256": "7505d7ae3d8e6ab7014b8a63bf06d1dda93b9b5b9466c9ca47df4f5f72b61c25"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/CN/V45_78_DESC.SPR",
+   "bytes": 59,
+   "sha256": "7e6b8d77e0eddf7cb8a341d01bd65fbfd51c23e125fe3e05df6eb2679cc68ec5"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/EN/.BGA",
+   "bytes": 14726,
+   "sha256": "0d4fa24dbd76648ed498e797afb999c17af8afa22b339a896563faa6aee9e05e"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/EN/V45_68_DESC.G",
+   "bytes": 131080,
+   "sha256": "dcda3ed471714c307e44a5eaf8a4e8e822e5e587828124d8df32cd1149bb8b27"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/EN/V45_68_DESC.SPR",
+   "bytes": 59,
+   "sha256": "ed10ab65efd3b235ce74f854ce5295dfc43f80bd093b50db82f9642097ffa144"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/EN/V45_69_DESC.G",
+   "bytes": 131080,
+   "sha256": "77143fa0ad77963cf8db5db78da6c13932c5282ce1e0d56e9f501f9a5cdfd561"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/EN/V45_69_DESC.SPR",
+   "bytes": 59,
+   "sha256": "6bad943177270e60d1b38aff09fe23cf0494362e8e928933613439312af4552a"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/EN/V45_70_DESC.G",
+   "bytes": 131080,
+   "sha256": "4859d01a65b61ce70221aa99ca451ecbee519fa38b5acc9dab48ad09f16e9421"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/EN/V45_70_DESC.SPR",
+   "bytes": 59,
+   "sha256": "11cbee0d54ae4036bec77dc9aad8743f37c1eafd88466972df91f30c24217faa"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/EN/V45_71_DESC.G",
+   "bytes": 131080,
+   "sha256": "e93c0962fc9a4125f924131ff46985597f83f12a8fc3d020d5a6a5d9a9398111"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/EN/V45_71_DESC.SPR",
+   "bytes": 59,
+   "sha256": "df84c964e08bfaf706659e5a339dea005a93f5cc781c06f359a36a05ba3f16e3"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/EN/V45_72_DESC.G",
+   "bytes": 131080,
+   "sha256": "8698c67b13daf32b05e8da5d4e5523657c9f5b8511c223b17e500e419074fab5"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/EN/V45_72_DESC.SPR",
+   "bytes": 59,
+   "sha256": "6a232fe8e1c2bc06775af559615bb98314fb418e833382506fce72eaffe29756"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/EN/V45_73_DESC.G",
+   "bytes": 131080,
+   "sha256": "0b82651ffe06d31a05e0c511b84ee70e7fd7be1fe68cf187b8b70f3d67521980"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/EN/V45_73_DESC.SPR",
+   "bytes": 59,
+   "sha256": "5212cb1f4923a56f3ecaa6e608b044f1e704cdd4708d0b9e422a0be58412e1b7"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/EN/V45_74_DESC.G",
+   "bytes": 131080,
+   "sha256": "59ec5b5a98b2b405abb776f3ddfdd2ff013deddff777410f2b35afc64b20ec7d"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/EN/V45_74_DESC.SPR",
+   "bytes": 59,
+   "sha256": "e0e8f2b77a22a7ef39ff06d389b6999b04c036a68d2f690ddcda52a2715ec681"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/EN/V45_75_DESC.G",
+   "bytes": 131080,
+   "sha256": "f8561397f08cc89813b0d28b32c07423c202e1095d32fe3adb5893895ad5b27e"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/EN/V45_75_DESC.SPR",
+   "bytes": 59,
+   "sha256": "a38b6c70ca571dc2e1d24f423fab5c0ad4767640c659783606fb26e53d1bcc4f"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/EN/V45_76_DESC.G",
+   "bytes": 131080,
+   "sha256": "e8c9928195b20dea4bd924fa346704287edeafcf868acdd3b03e367ac50a49ca"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/EN/V45_76_DESC.SPR",
+   "bytes": 59,
+   "sha256": "14b19110c9237714e6d0c52e56fc89b82d0d1b70ea663e58980c24349966c675"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/EN/V45_77_DESC.G",
+   "bytes": 131080,
+   "sha256": "979dd2eade4eb4353a6a7035ea6874f0f656a8afac0e6c26abd9c6f58bdf5c77"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/EN/V45_77_DESC.SPR",
+   "bytes": 59,
+   "sha256": "332041eedfa9ff92912a4acef8e59ed43f51599b24b3bd8328ed0b60a93faf53"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/EN/V45_78_DESC.G",
+   "bytes": 131080,
+   "sha256": "7505d7ae3d8e6ab7014b8a63bf06d1dda93b9b5b9466c9ca47df4f5f72b61c25"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/EN/V45_78_DESC.SPR",
+   "bytes": 59,
+   "sha256": "7e6b8d77e0eddf7cb8a341d01bd65fbfd51c23e125fe3e05df6eb2679cc68ec5"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/JP/.BGA",
+   "bytes": 14526,
+   "sha256": "5ae10795c3f2165decd1348f45e227cce07b05054de8f91c13a2d78ef4bfb322"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/JP/V45_68_DESC.G",
+   "bytes": 131080,
+   "sha256": "dcda3ed471714c307e44a5eaf8a4e8e822e5e587828124d8df32cd1149bb8b27"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/JP/V45_68_DESC.SPR",
+   "bytes": 59,
+   "sha256": "ed10ab65efd3b235ce74f854ce5295dfc43f80bd093b50db82f9642097ffa144"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/JP/V45_69_DESC.G",
+   "bytes": 131080,
+   "sha256": "77143fa0ad77963cf8db5db78da6c13932c5282ce1e0d56e9f501f9a5cdfd561"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/JP/V45_69_DESC.SPR",
+   "bytes": 59,
+   "sha256": "6bad943177270e60d1b38aff09fe23cf0494362e8e928933613439312af4552a"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/JP/V45_70_DESC.G",
+   "bytes": 131080,
+   "sha256": "4859d01a65b61ce70221aa99ca451ecbee519fa38b5acc9dab48ad09f16e9421"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/JP/V45_70_DESC.SPR",
+   "bytes": 59,
+   "sha256": "11cbee0d54ae4036bec77dc9aad8743f37c1eafd88466972df91f30c24217faa"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/JP/V45_71_DESC.G",
+   "bytes": 131080,
+   "sha256": "e93c0962fc9a4125f924131ff46985597f83f12a8fc3d020d5a6a5d9a9398111"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/JP/V45_71_DESC.SPR",
+   "bytes": 59,
+   "sha256": "df84c964e08bfaf706659e5a339dea005a93f5cc781c06f359a36a05ba3f16e3"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/JP/V45_72_DESC.G",
+   "bytes": 131080,
+   "sha256": "8698c67b13daf32b05e8da5d4e5523657c9f5b8511c223b17e500e419074fab5"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/JP/V45_72_DESC.SPR",
+   "bytes": 59,
+   "sha256": "6a232fe8e1c2bc06775af559615bb98314fb418e833382506fce72eaffe29756"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/JP/V45_73_DESC.G",
+   "bytes": 131080,
+   "sha256": "0b82651ffe06d31a05e0c511b84ee70e7fd7be1fe68cf187b8b70f3d67521980"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/JP/V45_73_DESC.SPR",
+   "bytes": 59,
+   "sha256": "5212cb1f4923a56f3ecaa6e608b044f1e704cdd4708d0b9e422a0be58412e1b7"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/JP/V45_74_DESC.G",
+   "bytes": 131080,
+   "sha256": "59ec5b5a98b2b405abb776f3ddfdd2ff013deddff777410f2b35afc64b20ec7d"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/JP/V45_74_DESC.SPR",
+   "bytes": 59,
+   "sha256": "e0e8f2b77a22a7ef39ff06d389b6999b04c036a68d2f690ddcda52a2715ec681"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/JP/V45_75_DESC.G",
+   "bytes": 131080,
+   "sha256": "f8561397f08cc89813b0d28b32c07423c202e1095d32fe3adb5893895ad5b27e"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/JP/V45_75_DESC.SPR",
+   "bytes": 59,
+   "sha256": "a38b6c70ca571dc2e1d24f423fab5c0ad4767640c659783606fb26e53d1bcc4f"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/JP/V45_76_DESC.G",
+   "bytes": 131080,
+   "sha256": "e8c9928195b20dea4bd924fa346704287edeafcf868acdd3b03e367ac50a49ca"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/JP/V45_76_DESC.SPR",
+   "bytes": 59,
+   "sha256": "14b19110c9237714e6d0c52e56fc89b82d0d1b70ea663e58980c24349966c675"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/JP/V45_77_DESC.G",
+   "bytes": 131080,
+   "sha256": "979dd2eade4eb4353a6a7035ea6874f0f656a8afac0e6c26abd9c6f58bdf5c77"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/JP/V45_77_DESC.SPR",
+   "bytes": 59,
+   "sha256": "332041eedfa9ff92912a4acef8e59ed43f51599b24b3bd8328ed0b60a93faf53"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/JP/V45_78_DESC.G",
+   "bytes": 131080,
+   "sha256": "7505d7ae3d8e6ab7014b8a63bf06d1dda93b9b5b9466c9ca47df4f5f72b61c25"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/JP/V45_78_DESC.SPR",
+   "bytes": 59,
+   "sha256": "7e6b8d77e0eddf7cb8a341d01bd65fbfd51c23e125fe3e05df6eb2679cc68ec5"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/KR/.BGA",
+   "bytes": 14726,
+   "sha256": "0d4fa24dbd76648ed498e797afb999c17af8afa22b339a896563faa6aee9e05e"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/KR/V45_68_DESC.G",
+   "bytes": 131080,
+   "sha256": "dcda3ed471714c307e44a5eaf8a4e8e822e5e587828124d8df32cd1149bb8b27"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/KR/V45_68_DESC.SPR",
+   "bytes": 59,
+   "sha256": "ed10ab65efd3b235ce74f854ce5295dfc43f80bd093b50db82f9642097ffa144"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/KR/V45_69_DESC.G",
+   "bytes": 131080,
+   "sha256": "77143fa0ad77963cf8db5db78da6c13932c5282ce1e0d56e9f501f9a5cdfd561"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/KR/V45_69_DESC.SPR",
+   "bytes": 59,
+   "sha256": "6bad943177270e60d1b38aff09fe23cf0494362e8e928933613439312af4552a"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/KR/V45_70_DESC.G",
+   "bytes": 131080,
+   "sha256": "4859d01a65b61ce70221aa99ca451ecbee519fa38b5acc9dab48ad09f16e9421"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/KR/V45_70_DESC.SPR",
+   "bytes": 59,
+   "sha256": "11cbee0d54ae4036bec77dc9aad8743f37c1eafd88466972df91f30c24217faa"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/KR/V45_71_DESC.G",
+   "bytes": 131080,
+   "sha256": "e93c0962fc9a4125f924131ff46985597f83f12a8fc3d020d5a6a5d9a9398111"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/KR/V45_71_DESC.SPR",
+   "bytes": 59,
+   "sha256": "df84c964e08bfaf706659e5a339dea005a93f5cc781c06f359a36a05ba3f16e3"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/KR/V45_72_DESC.G",
+   "bytes": 131080,
+   "sha256": "8698c67b13daf32b05e8da5d4e5523657c9f5b8511c223b17e500e419074fab5"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/KR/V45_72_DESC.SPR",
+   "bytes": 59,
+   "sha256": "6a232fe8e1c2bc06775af559615bb98314fb418e833382506fce72eaffe29756"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/KR/V45_73_DESC.G",
+   "bytes": 131080,
+   "sha256": "0b82651ffe06d31a05e0c511b84ee70e7fd7be1fe68cf187b8b70f3d67521980"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/KR/V45_73_DESC.SPR",
+   "bytes": 59,
+   "sha256": "5212cb1f4923a56f3ecaa6e608b044f1e704cdd4708d0b9e422a0be58412e1b7"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/KR/V45_74_DESC.G",
+   "bytes": 131080,
+   "sha256": "59ec5b5a98b2b405abb776f3ddfdd2ff013deddff777410f2b35afc64b20ec7d"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/KR/V45_74_DESC.SPR",
+   "bytes": 59,
+   "sha256": "e0e8f2b77a22a7ef39ff06d389b6999b04c036a68d2f690ddcda52a2715ec681"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/KR/V45_75_DESC.G",
+   "bytes": 131080,
+   "sha256": "f8561397f08cc89813b0d28b32c07423c202e1095d32fe3adb5893895ad5b27e"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/KR/V45_75_DESC.SPR",
+   "bytes": 59,
+   "sha256": "a38b6c70ca571dc2e1d24f423fab5c0ad4767640c659783606fb26e53d1bcc4f"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/KR/V45_76_DESC.G",
+   "bytes": 131080,
+   "sha256": "e8c9928195b20dea4bd924fa346704287edeafcf868acdd3b03e367ac50a49ca"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/KR/V45_76_DESC.SPR",
+   "bytes": 59,
+   "sha256": "14b19110c9237714e6d0c52e56fc89b82d0d1b70ea663e58980c24349966c675"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/KR/V45_77_DESC.G",
+   "bytes": 131080,
+   "sha256": "979dd2eade4eb4353a6a7035ea6874f0f656a8afac0e6c26abd9c6f58bdf5c77"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/KR/V45_77_DESC.SPR",
+   "bytes": 59,
+   "sha256": "332041eedfa9ff92912a4acef8e59ed43f51599b24b3bd8328ed0b60a93faf53"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/KR/V45_78_DESC.G",
+   "bytes": 131080,
+   "sha256": "7505d7ae3d8e6ab7014b8a63bf06d1dda93b9b5b9466c9ca47df4f5f72b61c25"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/KR/V45_78_DESC.SPR",
+   "bytes": 59,
+   "sha256": "7e6b8d77e0eddf7cb8a341d01bd65fbfd51c23e125fe3e05df6eb2679cc68ec5"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/PT/.BGA",
+   "bytes": 14726,
+   "sha256": "0d4fa24dbd76648ed498e797afb999c17af8afa22b339a896563faa6aee9e05e"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/PT/V45_68_DESC.G",
+   "bytes": 131080,
+   "sha256": "dcda3ed471714c307e44a5eaf8a4e8e822e5e587828124d8df32cd1149bb8b27"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/PT/V45_68_DESC.SPR",
+   "bytes": 59,
+   "sha256": "ed10ab65efd3b235ce74f854ce5295dfc43f80bd093b50db82f9642097ffa144"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/PT/V45_69_DESC.G",
+   "bytes": 131080,
+   "sha256": "77143fa0ad77963cf8db5db78da6c13932c5282ce1e0d56e9f501f9a5cdfd561"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/PT/V45_69_DESC.SPR",
+   "bytes": 59,
+   "sha256": "6bad943177270e60d1b38aff09fe23cf0494362e8e928933613439312af4552a"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/PT/V45_70_DESC.G",
+   "bytes": 131080,
+   "sha256": "4859d01a65b61ce70221aa99ca451ecbee519fa38b5acc9dab48ad09f16e9421"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/PT/V45_70_DESC.SPR",
+   "bytes": 59,
+   "sha256": "11cbee0d54ae4036bec77dc9aad8743f37c1eafd88466972df91f30c24217faa"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/PT/V45_71_DESC.G",
+   "bytes": 131080,
+   "sha256": "e93c0962fc9a4125f924131ff46985597f83f12a8fc3d020d5a6a5d9a9398111"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/PT/V45_71_DESC.SPR",
+   "bytes": 59,
+   "sha256": "df84c964e08bfaf706659e5a339dea005a93f5cc781c06f359a36a05ba3f16e3"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/PT/V45_72_DESC.G",
+   "bytes": 131080,
+   "sha256": "8698c67b13daf32b05e8da5d4e5523657c9f5b8511c223b17e500e419074fab5"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/PT/V45_72_DESC.SPR",
+   "bytes": 59,
+   "sha256": "6a232fe8e1c2bc06775af559615bb98314fb418e833382506fce72eaffe29756"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/PT/V45_73_DESC.G",
+   "bytes": 131080,
+   "sha256": "0b82651ffe06d31a05e0c511b84ee70e7fd7be1fe68cf187b8b70f3d67521980"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/PT/V45_73_DESC.SPR",
+   "bytes": 59,
+   "sha256": "5212cb1f4923a56f3ecaa6e608b044f1e704cdd4708d0b9e422a0be58412e1b7"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/PT/V45_74_DESC.G",
+   "bytes": 131080,
+   "sha256": "59ec5b5a98b2b405abb776f3ddfdd2ff013deddff777410f2b35afc64b20ec7d"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/PT/V45_74_DESC.SPR",
+   "bytes": 59,
+   "sha256": "e0e8f2b77a22a7ef39ff06d389b6999b04c036a68d2f690ddcda52a2715ec681"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/PT/V45_75_DESC.G",
+   "bytes": 131080,
+   "sha256": "f8561397f08cc89813b0d28b32c07423c202e1095d32fe3adb5893895ad5b27e"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/PT/V45_75_DESC.SPR",
+   "bytes": 59,
+   "sha256": "a38b6c70ca571dc2e1d24f423fab5c0ad4767640c659783606fb26e53d1bcc4f"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/PT/V45_76_DESC.G",
+   "bytes": 131080,
+   "sha256": "e8c9928195b20dea4bd924fa346704287edeafcf868acdd3b03e367ac50a49ca"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/PT/V45_76_DESC.SPR",
+   "bytes": 59,
+   "sha256": "14b19110c9237714e6d0c52e56fc89b82d0d1b70ea663e58980c24349966c675"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/PT/V45_77_DESC.G",
+   "bytes": 131080,
+   "sha256": "979dd2eade4eb4353a6a7035ea6874f0f656a8afac0e6c26abd9c6f58bdf5c77"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/PT/V45_77_DESC.SPR",
+   "bytes": 59,
+   "sha256": "332041eedfa9ff92912a4acef8e59ed43f51599b24b3bd8328ed0b60a93faf53"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/PT/V45_78_DESC.G",
+   "bytes": 131080,
+   "sha256": "7505d7ae3d8e6ab7014b8a63bf06d1dda93b9b5b9466c9ca47df4f5f72b61c25"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/PT/V45_78_DESC.SPR",
+   "bytes": 59,
+   "sha256": "7e6b8d77e0eddf7cb8a341d01bd65fbfd51c23e125fe3e05df6eb2679cc68ec5"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/SP/.BGA",
+   "bytes": 14726,
+   "sha256": "0d4fa24dbd76648ed498e797afb999c17af8afa22b339a896563faa6aee9e05e"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/SP/V45_68_DESC.G",
+   "bytes": 131080,
+   "sha256": "dcda3ed471714c307e44a5eaf8a4e8e822e5e587828124d8df32cd1149bb8b27"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/SP/V45_68_DESC.SPR",
+   "bytes": 59,
+   "sha256": "ed10ab65efd3b235ce74f854ce5295dfc43f80bd093b50db82f9642097ffa144"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/SP/V45_69_DESC.G",
+   "bytes": 131080,
+   "sha256": "77143fa0ad77963cf8db5db78da6c13932c5282ce1e0d56e9f501f9a5cdfd561"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/SP/V45_69_DESC.SPR",
+   "bytes": 59,
+   "sha256": "6bad943177270e60d1b38aff09fe23cf0494362e8e928933613439312af4552a"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/SP/V45_70_DESC.G",
+   "bytes": 131080,
+   "sha256": "4859d01a65b61ce70221aa99ca451ecbee519fa38b5acc9dab48ad09f16e9421"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/SP/V45_70_DESC.SPR",
+   "bytes": 59,
+   "sha256": "11cbee0d54ae4036bec77dc9aad8743f37c1eafd88466972df91f30c24217faa"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/SP/V45_71_DESC.G",
+   "bytes": 131080,
+   "sha256": "e93c0962fc9a4125f924131ff46985597f83f12a8fc3d020d5a6a5d9a9398111"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/SP/V45_71_DESC.SPR",
+   "bytes": 59,
+   "sha256": "df84c964e08bfaf706659e5a339dea005a93f5cc781c06f359a36a05ba3f16e3"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/SP/V45_72_DESC.G",
+   "bytes": 131080,
+   "sha256": "8698c67b13daf32b05e8da5d4e5523657c9f5b8511c223b17e500e419074fab5"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/SP/V45_72_DESC.SPR",
+   "bytes": 59,
+   "sha256": "6a232fe8e1c2bc06775af559615bb98314fb418e833382506fce72eaffe29756"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/SP/V45_73_DESC.G",
+   "bytes": 131080,
+   "sha256": "0b82651ffe06d31a05e0c511b84ee70e7fd7be1fe68cf187b8b70f3d67521980"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/SP/V45_73_DESC.SPR",
+   "bytes": 59,
+   "sha256": "5212cb1f4923a56f3ecaa6e608b044f1e704cdd4708d0b9e422a0be58412e1b7"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/SP/V45_74_DESC.G",
+   "bytes": 131080,
+   "sha256": "59ec5b5a98b2b405abb776f3ddfdd2ff013deddff777410f2b35afc64b20ec7d"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/SP/V45_74_DESC.SPR",
+   "bytes": 59,
+   "sha256": "e0e8f2b77a22a7ef39ff06d389b6999b04c036a68d2f690ddcda52a2715ec681"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/SP/V45_75_DESC.G",
+   "bytes": 131080,
+   "sha256": "f8561397f08cc89813b0d28b32c07423c202e1095d32fe3adb5893895ad5b27e"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/SP/V45_75_DESC.SPR",
+   "bytes": 59,
+   "sha256": "a38b6c70ca571dc2e1d24f423fab5c0ad4767640c659783606fb26e53d1bcc4f"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/SP/V45_76_DESC.G",
+   "bytes": 131080,
+   "sha256": "e8c9928195b20dea4bd924fa346704287edeafcf868acdd3b03e367ac50a49ca"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/SP/V45_76_DESC.SPR",
+   "bytes": 59,
+   "sha256": "14b19110c9237714e6d0c52e56fc89b82d0d1b70ea663e58980c24349966c675"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/SP/V45_77_DESC.G",
+   "bytes": 131080,
+   "sha256": "979dd2eade4eb4353a6a7035ea6874f0f656a8afac0e6c26abd9c6f58bdf5c77"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/SP/V45_77_DESC.SPR",
+   "bytes": 59,
+   "sha256": "332041eedfa9ff92912a4acef8e59ed43f51599b24b3bd8328ed0b60a93faf53"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/SP/V45_78_DESC.G",
+   "bytes": 131080,
+   "sha256": "7505d7ae3d8e6ab7014b8a63bf06d1dda93b9b5b9466c9ca47df4f5f72b61c25"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/HD/SP/V45_78_DESC.SPR",
+   "bytes": 59,
+   "sha256": "7e6b8d77e0eddf7cb8a341d01bd65fbfd51c23e125fe3e05df6eb2679cc68ec5"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/CN/.BGA",
+   "bytes": 14726,
+   "sha256": "0d4fa24dbd76648ed498e797afb999c17af8afa22b339a896563faa6aee9e05e"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/CN/V45_68_DESC.G",
+   "bytes": 65544,
+   "sha256": "0f12db2a44eac9c747445629768a6b4775e97ee141423db25b58e04e7764e65d"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/CN/V45_68_DESC.SPR",
+   "bytes": 59,
+   "sha256": "8a122b6cdc2f5bbff5ec88afd2893480e4d1b67482bc6891a13f43da37be064a"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/CN/V45_69_DESC.G",
+   "bytes": 65544,
+   "sha256": "869d5fb710b8baa7b59c0029c8943e89df0ed917c9be15bfa3e18c033f899199"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/CN/V45_69_DESC.SPR",
+   "bytes": 59,
+   "sha256": "a4029f9ad834e9249b7b4318c136143fe2a497cef3dc5c9594fcf46afc290e65"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/CN/V45_70_DESC.G",
+   "bytes": 65544,
+   "sha256": "354a85e8fb8494e9d323b78cdba2c84269e35455e107b6494ceb54f62e0c7bcd"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/CN/V45_70_DESC.SPR",
+   "bytes": 59,
+   "sha256": "d7c0ddac2fc0c23162148138ca6f49c71d83d34ea3651e2284cb78422f84a8b6"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/CN/V45_71_DESC.G",
+   "bytes": 65544,
+   "sha256": "6256a52f102402cef860cd251a4ce3f666b8261429acb5bb7e546c989c1e7753"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/CN/V45_71_DESC.SPR",
+   "bytes": 59,
+   "sha256": "94c98bdaf73bb2bef1682aaed8b37ee724770c91b9726a6d96e9126759183077"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/CN/V45_72_DESC.G",
+   "bytes": 65544,
+   "sha256": "7003bd2e64cc6dacc318cb06052bddb5f80243d03f1a2bc10b7b1c9c10ebe070"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/CN/V45_72_DESC.SPR",
+   "bytes": 59,
+   "sha256": "d27dd8fecd6249125bca60e36247e7db1f05aece5c6a1a3c0914feef6c991a84"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/CN/V45_73_DESC.G",
+   "bytes": 65544,
+   "sha256": "0e66823f79df28528f4888acbe56384cbe4cbe2af6ec682c7ff1a8b7b80ebbd3"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/CN/V45_73_DESC.SPR",
+   "bytes": 59,
+   "sha256": "2ff4de6478276b0add18a0d48eb2bf77353015c5a66d77eed7ce63a6446896f4"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/CN/V45_74_DESC.G",
+   "bytes": 65544,
+   "sha256": "195c573bafdb23332849f5d89eebb152320a8edce029a57357e7938d5819a616"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/CN/V45_74_DESC.SPR",
+   "bytes": 59,
+   "sha256": "bb9dbf5df8772d46128fb82345f95a52aa3d546de521ba5cc1c7dd845b9d1a66"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/CN/V45_75_DESC.G",
+   "bytes": 65544,
+   "sha256": "50f4a12c40ce2e6085feb57292a1a28a3cf73da6775ab68272e31828dc12bf98"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/CN/V45_75_DESC.SPR",
+   "bytes": 59,
+   "sha256": "3f375eab8a9ba736ca43174162c22f2ed1572a44cd1687293891b558b32a0269"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/CN/V45_76_DESC.G",
+   "bytes": 65544,
+   "sha256": "c46fe687a94143b9167489bf4512c5810523a5289144507119d5350f6b21b519"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/CN/V45_76_DESC.SPR",
+   "bytes": 59,
+   "sha256": "cf17a1a91d41faa4645e21c8996b8af6e9d3e12462e09d88ab9ba4a7a4899bf7"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/CN/V45_77_DESC.G",
+   "bytes": 65544,
+   "sha256": "e03a1e3fe0f18ca4504295ebc55710e99b2ad77cbed66368eda2722b43a0e5a9"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/CN/V45_77_DESC.SPR",
+   "bytes": 59,
+   "sha256": "ad1b8daf17ed106f40f1b243ccae87ebcb80f33275a735d2c3b00ab466708bd4"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/CN/V45_78_DESC.G",
+   "bytes": 65544,
+   "sha256": "7d0ba7db3f3c0395fb4ce21fce3d0a33370f58c889498c223dabb23aa5eaa9c2"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/CN/V45_78_DESC.SPR",
+   "bytes": 59,
+   "sha256": "baf4fe78202f9a700c4cad92ac1d04026d51c9f62d8ebc1b6867f25a2e3e7a2c"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/EN/.BGA",
+   "bytes": 14726,
+   "sha256": "0d4fa24dbd76648ed498e797afb999c17af8afa22b339a896563faa6aee9e05e"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/EN/V45_68_DESC.G",
+   "bytes": 65544,
+   "sha256": "0f12db2a44eac9c747445629768a6b4775e97ee141423db25b58e04e7764e65d"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/EN/V45_68_DESC.SPR",
+   "bytes": 59,
+   "sha256": "8a122b6cdc2f5bbff5ec88afd2893480e4d1b67482bc6891a13f43da37be064a"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/EN/V45_69_DESC.G",
+   "bytes": 65544,
+   "sha256": "869d5fb710b8baa7b59c0029c8943e89df0ed917c9be15bfa3e18c033f899199"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/EN/V45_69_DESC.SPR",
+   "bytes": 59,
+   "sha256": "a4029f9ad834e9249b7b4318c136143fe2a497cef3dc5c9594fcf46afc290e65"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/EN/V45_70_DESC.G",
+   "bytes": 65544,
+   "sha256": "354a85e8fb8494e9d323b78cdba2c84269e35455e107b6494ceb54f62e0c7bcd"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/EN/V45_70_DESC.SPR",
+   "bytes": 59,
+   "sha256": "d7c0ddac2fc0c23162148138ca6f49c71d83d34ea3651e2284cb78422f84a8b6"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/EN/V45_71_DESC.G",
+   "bytes": 65544,
+   "sha256": "6256a52f102402cef860cd251a4ce3f666b8261429acb5bb7e546c989c1e7753"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/EN/V45_71_DESC.SPR",
+   "bytes": 59,
+   "sha256": "94c98bdaf73bb2bef1682aaed8b37ee724770c91b9726a6d96e9126759183077"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/EN/V45_72_DESC.G",
+   "bytes": 65544,
+   "sha256": "7003bd2e64cc6dacc318cb06052bddb5f80243d03f1a2bc10b7b1c9c10ebe070"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/EN/V45_72_DESC.SPR",
+   "bytes": 59,
+   "sha256": "d27dd8fecd6249125bca60e36247e7db1f05aece5c6a1a3c0914feef6c991a84"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/EN/V45_73_DESC.G",
+   "bytes": 65544,
+   "sha256": "0e66823f79df28528f4888acbe56384cbe4cbe2af6ec682c7ff1a8b7b80ebbd3"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/EN/V45_73_DESC.SPR",
+   "bytes": 59,
+   "sha256": "2ff4de6478276b0add18a0d48eb2bf77353015c5a66d77eed7ce63a6446896f4"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/EN/V45_74_DESC.G",
+   "bytes": 65544,
+   "sha256": "195c573bafdb23332849f5d89eebb152320a8edce029a57357e7938d5819a616"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/EN/V45_74_DESC.SPR",
+   "bytes": 59,
+   "sha256": "bb9dbf5df8772d46128fb82345f95a52aa3d546de521ba5cc1c7dd845b9d1a66"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/EN/V45_75_DESC.G",
+   "bytes": 65544,
+   "sha256": "50f4a12c40ce2e6085feb57292a1a28a3cf73da6775ab68272e31828dc12bf98"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/EN/V45_75_DESC.SPR",
+   "bytes": 59,
+   "sha256": "3f375eab8a9ba736ca43174162c22f2ed1572a44cd1687293891b558b32a0269"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/EN/V45_76_DESC.G",
+   "bytes": 65544,
+   "sha256": "c46fe687a94143b9167489bf4512c5810523a5289144507119d5350f6b21b519"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/EN/V45_76_DESC.SPR",
+   "bytes": 59,
+   "sha256": "cf17a1a91d41faa4645e21c8996b8af6e9d3e12462e09d88ab9ba4a7a4899bf7"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/EN/V45_77_DESC.G",
+   "bytes": 65544,
+   "sha256": "e03a1e3fe0f18ca4504295ebc55710e99b2ad77cbed66368eda2722b43a0e5a9"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/EN/V45_77_DESC.SPR",
+   "bytes": 59,
+   "sha256": "ad1b8daf17ed106f40f1b243ccae87ebcb80f33275a735d2c3b00ab466708bd4"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/EN/V45_78_DESC.G",
+   "bytes": 65544,
+   "sha256": "7d0ba7db3f3c0395fb4ce21fce3d0a33370f58c889498c223dabb23aa5eaa9c2"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/EN/V45_78_DESC.SPR",
+   "bytes": 59,
+   "sha256": "baf4fe78202f9a700c4cad92ac1d04026d51c9f62d8ebc1b6867f25a2e3e7a2c"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/JP/.BGA",
+   "bytes": 14526,
+   "sha256": "5ae10795c3f2165decd1348f45e227cce07b05054de8f91c13a2d78ef4bfb322"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/JP/V45_68_DESC.G",
+   "bytes": 65544,
+   "sha256": "0f12db2a44eac9c747445629768a6b4775e97ee141423db25b58e04e7764e65d"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/JP/V45_68_DESC.SPR",
+   "bytes": 59,
+   "sha256": "8a122b6cdc2f5bbff5ec88afd2893480e4d1b67482bc6891a13f43da37be064a"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/JP/V45_69_DESC.G",
+   "bytes": 65544,
+   "sha256": "869d5fb710b8baa7b59c0029c8943e89df0ed917c9be15bfa3e18c033f899199"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/JP/V45_69_DESC.SPR",
+   "bytes": 59,
+   "sha256": "a4029f9ad834e9249b7b4318c136143fe2a497cef3dc5c9594fcf46afc290e65"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/JP/V45_70_DESC.G",
+   "bytes": 65544,
+   "sha256": "354a85e8fb8494e9d323b78cdba2c84269e35455e107b6494ceb54f62e0c7bcd"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/JP/V45_70_DESC.SPR",
+   "bytes": 59,
+   "sha256": "d7c0ddac2fc0c23162148138ca6f49c71d83d34ea3651e2284cb78422f84a8b6"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/JP/V45_71_DESC.G",
+   "bytes": 65544,
+   "sha256": "6256a52f102402cef860cd251a4ce3f666b8261429acb5bb7e546c989c1e7753"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/JP/V45_71_DESC.SPR",
+   "bytes": 59,
+   "sha256": "94c98bdaf73bb2bef1682aaed8b37ee724770c91b9726a6d96e9126759183077"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/JP/V45_72_DESC.G",
+   "bytes": 65544,
+   "sha256": "7003bd2e64cc6dacc318cb06052bddb5f80243d03f1a2bc10b7b1c9c10ebe070"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/JP/V45_72_DESC.SPR",
+   "bytes": 59,
+   "sha256": "d27dd8fecd6249125bca60e36247e7db1f05aece5c6a1a3c0914feef6c991a84"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/JP/V45_73_DESC.G",
+   "bytes": 65544,
+   "sha256": "0e66823f79df28528f4888acbe56384cbe4cbe2af6ec682c7ff1a8b7b80ebbd3"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/JP/V45_73_DESC.SPR",
+   "bytes": 59,
+   "sha256": "2ff4de6478276b0add18a0d48eb2bf77353015c5a66d77eed7ce63a6446896f4"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/JP/V45_74_DESC.G",
+   "bytes": 65544,
+   "sha256": "195c573bafdb23332849f5d89eebb152320a8edce029a57357e7938d5819a616"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/JP/V45_74_DESC.SPR",
+   "bytes": 59,
+   "sha256": "bb9dbf5df8772d46128fb82345f95a52aa3d546de521ba5cc1c7dd845b9d1a66"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/JP/V45_75_DESC.G",
+   "bytes": 65544,
+   "sha256": "50f4a12c40ce2e6085feb57292a1a28a3cf73da6775ab68272e31828dc12bf98"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/JP/V45_75_DESC.SPR",
+   "bytes": 59,
+   "sha256": "3f375eab8a9ba736ca43174162c22f2ed1572a44cd1687293891b558b32a0269"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/JP/V45_76_DESC.G",
+   "bytes": 65544,
+   "sha256": "c46fe687a94143b9167489bf4512c5810523a5289144507119d5350f6b21b519"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/JP/V45_76_DESC.SPR",
+   "bytes": 59,
+   "sha256": "cf17a1a91d41faa4645e21c8996b8af6e9d3e12462e09d88ab9ba4a7a4899bf7"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/JP/V45_77_DESC.G",
+   "bytes": 65544,
+   "sha256": "e03a1e3fe0f18ca4504295ebc55710e99b2ad77cbed66368eda2722b43a0e5a9"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/JP/V45_77_DESC.SPR",
+   "bytes": 59,
+   "sha256": "ad1b8daf17ed106f40f1b243ccae87ebcb80f33275a735d2c3b00ab466708bd4"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/JP/V45_78_DESC.G",
+   "bytes": 65544,
+   "sha256": "7d0ba7db3f3c0395fb4ce21fce3d0a33370f58c889498c223dabb23aa5eaa9c2"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/JP/V45_78_DESC.SPR",
+   "bytes": 59,
+   "sha256": "baf4fe78202f9a700c4cad92ac1d04026d51c9f62d8ebc1b6867f25a2e3e7a2c"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/KR/.BGA",
+   "bytes": 14726,
+   "sha256": "0d4fa24dbd76648ed498e797afb999c17af8afa22b339a896563faa6aee9e05e"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/KR/V45_68_DESC.G",
+   "bytes": 65544,
+   "sha256": "0f12db2a44eac9c747445629768a6b4775e97ee141423db25b58e04e7764e65d"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/KR/V45_68_DESC.SPR",
+   "bytes": 59,
+   "sha256": "8a122b6cdc2f5bbff5ec88afd2893480e4d1b67482bc6891a13f43da37be064a"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/KR/V45_69_DESC.G",
+   "bytes": 65544,
+   "sha256": "869d5fb710b8baa7b59c0029c8943e89df0ed917c9be15bfa3e18c033f899199"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/KR/V45_69_DESC.SPR",
+   "bytes": 59,
+   "sha256": "a4029f9ad834e9249b7b4318c136143fe2a497cef3dc5c9594fcf46afc290e65"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/KR/V45_70_DESC.G",
+   "bytes": 65544,
+   "sha256": "354a85e8fb8494e9d323b78cdba2c84269e35455e107b6494ceb54f62e0c7bcd"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/KR/V45_70_DESC.SPR",
+   "bytes": 59,
+   "sha256": "d7c0ddac2fc0c23162148138ca6f49c71d83d34ea3651e2284cb78422f84a8b6"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/KR/V45_71_DESC.G",
+   "bytes": 65544,
+   "sha256": "6256a52f102402cef860cd251a4ce3f666b8261429acb5bb7e546c989c1e7753"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/KR/V45_71_DESC.SPR",
+   "bytes": 59,
+   "sha256": "94c98bdaf73bb2bef1682aaed8b37ee724770c91b9726a6d96e9126759183077"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/KR/V45_72_DESC.G",
+   "bytes": 65544,
+   "sha256": "7003bd2e64cc6dacc318cb06052bddb5f80243d03f1a2bc10b7b1c9c10ebe070"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/KR/V45_72_DESC.SPR",
+   "bytes": 59,
+   "sha256": "d27dd8fecd6249125bca60e36247e7db1f05aece5c6a1a3c0914feef6c991a84"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/KR/V45_73_DESC.G",
+   "bytes": 65544,
+   "sha256": "0e66823f79df28528f4888acbe56384cbe4cbe2af6ec682c7ff1a8b7b80ebbd3"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/KR/V45_73_DESC.SPR",
+   "bytes": 59,
+   "sha256": "2ff4de6478276b0add18a0d48eb2bf77353015c5a66d77eed7ce63a6446896f4"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/KR/V45_74_DESC.G",
+   "bytes": 65544,
+   "sha256": "195c573bafdb23332849f5d89eebb152320a8edce029a57357e7938d5819a616"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/KR/V45_74_DESC.SPR",
+   "bytes": 59,
+   "sha256": "bb9dbf5df8772d46128fb82345f95a52aa3d546de521ba5cc1c7dd845b9d1a66"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/KR/V45_75_DESC.G",
+   "bytes": 65544,
+   "sha256": "50f4a12c40ce2e6085feb57292a1a28a3cf73da6775ab68272e31828dc12bf98"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/KR/V45_75_DESC.SPR",
+   "bytes": 59,
+   "sha256": "3f375eab8a9ba736ca43174162c22f2ed1572a44cd1687293891b558b32a0269"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/KR/V45_76_DESC.G",
+   "bytes": 65544,
+   "sha256": "c46fe687a94143b9167489bf4512c5810523a5289144507119d5350f6b21b519"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/KR/V45_76_DESC.SPR",
+   "bytes": 59,
+   "sha256": "cf17a1a91d41faa4645e21c8996b8af6e9d3e12462e09d88ab9ba4a7a4899bf7"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/KR/V45_77_DESC.G",
+   "bytes": 65544,
+   "sha256": "e03a1e3fe0f18ca4504295ebc55710e99b2ad77cbed66368eda2722b43a0e5a9"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/KR/V45_77_DESC.SPR",
+   "bytes": 59,
+   "sha256": "ad1b8daf17ed106f40f1b243ccae87ebcb80f33275a735d2c3b00ab466708bd4"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/KR/V45_78_DESC.G",
+   "bytes": 65544,
+   "sha256": "7d0ba7db3f3c0395fb4ce21fce3d0a33370f58c889498c223dabb23aa5eaa9c2"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/KR/V45_78_DESC.SPR",
+   "bytes": 59,
+   "sha256": "baf4fe78202f9a700c4cad92ac1d04026d51c9f62d8ebc1b6867f25a2e3e7a2c"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/PT/.BGA",
+   "bytes": 14726,
+   "sha256": "0d4fa24dbd76648ed498e797afb999c17af8afa22b339a896563faa6aee9e05e"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/PT/V45_68_DESC.G",
+   "bytes": 65544,
+   "sha256": "0f12db2a44eac9c747445629768a6b4775e97ee141423db25b58e04e7764e65d"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/PT/V45_68_DESC.SPR",
+   "bytes": 59,
+   "sha256": "8a122b6cdc2f5bbff5ec88afd2893480e4d1b67482bc6891a13f43da37be064a"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/PT/V45_69_DESC.G",
+   "bytes": 65544,
+   "sha256": "869d5fb710b8baa7b59c0029c8943e89df0ed917c9be15bfa3e18c033f899199"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/PT/V45_69_DESC.SPR",
+   "bytes": 59,
+   "sha256": "a4029f9ad834e9249b7b4318c136143fe2a497cef3dc5c9594fcf46afc290e65"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/PT/V45_70_DESC.G",
+   "bytes": 65544,
+   "sha256": "354a85e8fb8494e9d323b78cdba2c84269e35455e107b6494ceb54f62e0c7bcd"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/PT/V45_70_DESC.SPR",
+   "bytes": 59,
+   "sha256": "d7c0ddac2fc0c23162148138ca6f49c71d83d34ea3651e2284cb78422f84a8b6"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/PT/V45_71_DESC.G",
+   "bytes": 65544,
+   "sha256": "6256a52f102402cef860cd251a4ce3f666b8261429acb5bb7e546c989c1e7753"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/PT/V45_71_DESC.SPR",
+   "bytes": 59,
+   "sha256": "94c98bdaf73bb2bef1682aaed8b37ee724770c91b9726a6d96e9126759183077"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/PT/V45_72_DESC.G",
+   "bytes": 65544,
+   "sha256": "7003bd2e64cc6dacc318cb06052bddb5f80243d03f1a2bc10b7b1c9c10ebe070"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/PT/V45_72_DESC.SPR",
+   "bytes": 59,
+   "sha256": "d27dd8fecd6249125bca60e36247e7db1f05aece5c6a1a3c0914feef6c991a84"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/PT/V45_73_DESC.G",
+   "bytes": 65544,
+   "sha256": "0e66823f79df28528f4888acbe56384cbe4cbe2af6ec682c7ff1a8b7b80ebbd3"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/PT/V45_73_DESC.SPR",
+   "bytes": 59,
+   "sha256": "2ff4de6478276b0add18a0d48eb2bf77353015c5a66d77eed7ce63a6446896f4"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/PT/V45_74_DESC.G",
+   "bytes": 65544,
+   "sha256": "195c573bafdb23332849f5d89eebb152320a8edce029a57357e7938d5819a616"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/PT/V45_74_DESC.SPR",
+   "bytes": 59,
+   "sha256": "bb9dbf5df8772d46128fb82345f95a52aa3d546de521ba5cc1c7dd845b9d1a66"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/PT/V45_75_DESC.G",
+   "bytes": 65544,
+   "sha256": "50f4a12c40ce2e6085feb57292a1a28a3cf73da6775ab68272e31828dc12bf98"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/PT/V45_75_DESC.SPR",
+   "bytes": 59,
+   "sha256": "3f375eab8a9ba736ca43174162c22f2ed1572a44cd1687293891b558b32a0269"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/PT/V45_76_DESC.G",
+   "bytes": 65544,
+   "sha256": "c46fe687a94143b9167489bf4512c5810523a5289144507119d5350f6b21b519"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/PT/V45_76_DESC.SPR",
+   "bytes": 59,
+   "sha256": "cf17a1a91d41faa4645e21c8996b8af6e9d3e12462e09d88ab9ba4a7a4899bf7"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/PT/V45_77_DESC.G",
+   "bytes": 65544,
+   "sha256": "e03a1e3fe0f18ca4504295ebc55710e99b2ad77cbed66368eda2722b43a0e5a9"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/PT/V45_77_DESC.SPR",
+   "bytes": 59,
+   "sha256": "ad1b8daf17ed106f40f1b243ccae87ebcb80f33275a735d2c3b00ab466708bd4"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/PT/V45_78_DESC.G",
+   "bytes": 65544,
+   "sha256": "7d0ba7db3f3c0395fb4ce21fce3d0a33370f58c889498c223dabb23aa5eaa9c2"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/PT/V45_78_DESC.SPR",
+   "bytes": 59,
+   "sha256": "baf4fe78202f9a700c4cad92ac1d04026d51c9f62d8ebc1b6867f25a2e3e7a2c"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/SP/.BGA",
+   "bytes": 14726,
+   "sha256": "0d4fa24dbd76648ed498e797afb999c17af8afa22b339a896563faa6aee9e05e"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/SP/V45_68_DESC.G",
+   "bytes": 65544,
+   "sha256": "0f12db2a44eac9c747445629768a6b4775e97ee141423db25b58e04e7764e65d"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/SP/V45_68_DESC.SPR",
+   "bytes": 59,
+   "sha256": "8a122b6cdc2f5bbff5ec88afd2893480e4d1b67482bc6891a13f43da37be064a"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/SP/V45_69_DESC.G",
+   "bytes": 65544,
+   "sha256": "869d5fb710b8baa7b59c0029c8943e89df0ed917c9be15bfa3e18c033f899199"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/SP/V45_69_DESC.SPR",
+   "bytes": 59,
+   "sha256": "a4029f9ad834e9249b7b4318c136143fe2a497cef3dc5c9594fcf46afc290e65"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/SP/V45_70_DESC.G",
+   "bytes": 65544,
+   "sha256": "354a85e8fb8494e9d323b78cdba2c84269e35455e107b6494ceb54f62e0c7bcd"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/SP/V45_70_DESC.SPR",
+   "bytes": 59,
+   "sha256": "d7c0ddac2fc0c23162148138ca6f49c71d83d34ea3651e2284cb78422f84a8b6"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/SP/V45_71_DESC.G",
+   "bytes": 65544,
+   "sha256": "6256a52f102402cef860cd251a4ce3f666b8261429acb5bb7e546c989c1e7753"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/SP/V45_71_DESC.SPR",
+   "bytes": 59,
+   "sha256": "94c98bdaf73bb2bef1682aaed8b37ee724770c91b9726a6d96e9126759183077"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/SP/V45_72_DESC.G",
+   "bytes": 65544,
+   "sha256": "7003bd2e64cc6dacc318cb06052bddb5f80243d03f1a2bc10b7b1c9c10ebe070"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/SP/V45_72_DESC.SPR",
+   "bytes": 59,
+   "sha256": "d27dd8fecd6249125bca60e36247e7db1f05aece5c6a1a3c0914feef6c991a84"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/SP/V45_73_DESC.G",
+   "bytes": 65544,
+   "sha256": "0e66823f79df28528f4888acbe56384cbe4cbe2af6ec682c7ff1a8b7b80ebbd3"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/SP/V45_73_DESC.SPR",
+   "bytes": 59,
+   "sha256": "2ff4de6478276b0add18a0d48eb2bf77353015c5a66d77eed7ce63a6446896f4"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/SP/V45_74_DESC.G",
+   "bytes": 65544,
+   "sha256": "195c573bafdb23332849f5d89eebb152320a8edce029a57357e7938d5819a616"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/SP/V45_74_DESC.SPR",
+   "bytes": 59,
+   "sha256": "bb9dbf5df8772d46128fb82345f95a52aa3d546de521ba5cc1c7dd845b9d1a66"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/SP/V45_75_DESC.G",
+   "bytes": 65544,
+   "sha256": "50f4a12c40ce2e6085feb57292a1a28a3cf73da6775ab68272e31828dc12bf98"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/SP/V45_75_DESC.SPR",
+   "bytes": 59,
+   "sha256": "3f375eab8a9ba736ca43174162c22f2ed1572a44cd1687293891b558b32a0269"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/SP/V45_76_DESC.G",
+   "bytes": 65544,
+   "sha256": "c46fe687a94143b9167489bf4512c5810523a5289144507119d5350f6b21b519"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/SP/V45_76_DESC.SPR",
+   "bytes": 59,
+   "sha256": "cf17a1a91d41faa4645e21c8996b8af6e9d3e12462e09d88ab9ba4a7a4899bf7"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/SP/V45_77_DESC.G",
+   "bytes": 65544,
+   "sha256": "e03a1e3fe0f18ca4504295ebc55710e99b2ad77cbed66368eda2722b43a0e5a9"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/SP/V45_77_DESC.SPR",
+   "bytes": 59,
+   "sha256": "ad1b8daf17ed106f40f1b243ccae87ebcb80f33275a735d2c3b00ab466708bd4"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/SP/V45_78_DESC.G",
+   "bytes": 65544,
+   "sha256": "7d0ba7db3f3c0395fb4ce21fce3d0a33370f58c889498c223dabb23aa5eaa9c2"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/MAIN_FULL_C2/SD/SP/V45_78_DESC.SPR",
+   "bytes": 59,
+   "sha256": "baf4fe78202f9a700c4cad92ac1d04026d51c9f62d8ebc1b6867f25a2e3e7a2c"
+  },
+  {
+   "path": "/WAVE/46_EZ2DANCER.WAV",
+   "bytes": 316058,
+   "sha256": "bfd108a49cb2b771e36d5836573195f5b730cf647d3eca10fbad7d7b44305e9e"
+  },
+  {
+   "path": "/WAVE/47_RAVE_IT_OUT.WAV",
+   "bytes": 270918,
+   "sha256": "a52db26bc9dc402193671259b21a0d98c70ed0734336cbb00e51fb4ccda4c4e5"
+  },
+  {
+   "path": "/WAVE/50_DJMAX.WAV",
+   "bytes": 391290,
+   "sha256": "6875c6960be1d861115341b424e46480a160050004312bd5d217f5ee17d77e66"
+  },
+  {
+   "path": "/WAVE/68_PUMP_IT_UP_PRO.WAV",
+   "bytes": 285966,
+   "sha256": "d419ea39b22682475fbfc54cd47eea36e4fbf0e9c3c4eeb4ed096ae3ea114144"
+  },
+  {
+   "path": "/WAVE/69_PUMP_IT_UP_PRO_2.WAV",
+   "bytes": 361198,
+   "sha256": "052131e0737ea6cc79d455aff7f8c0f0325f289129ac6cea323b3b9637c73e40"
+  },
+  {
+   "path": "/WAVE/70_PUMP_IT_UP_INFINITY.WAV",
+   "bytes": 346150,
+   "sha256": "274c6fe482c110e84842f0ce0a2840ffc39f7398fc9b176a711631c09ac93b63"
+  },
+  {
+   "path": "/WAVE/71_SABIN_SOUND_STAR.WAV",
+   "bytes": 622002,
+   "sha256": "e4d41454708ae8af8fed4fdabac338f7566b6e2eaa90e98eeee3ca25c5cc5957"
+  },
+  {
+   "path": "/WAVE/72_EZ2ON_REBOOT_R.WAV",
+   "bytes": 561818,
+   "sha256": "54a58c11d144301613041316adc116467a4dc22d15ce093975d97ac51ab93b78"
+  },
+  {
+   "path": "/WAVE/73_BEATMANIA_IIDX.WAV",
+   "bytes": 591910,
+   "sha256": "b5c3914b93b5e3437c818eaeb8c977c1c7c7aaf13e9a4373510eaba3139f2295"
+  },
+  {
+   "path": "/WAVE/74_BEATMANIA_IIDX_2.WAV",
+   "bytes": 516678,
+   "sha256": "0e3079cd76f8d74e4ab560edfbdd10618be4533fcf4f1444c8031a96a10c5e64"
+  },
+  {
+   "path": "/WAVE/75_BEATMANIA_IIDX_3.WAV",
+   "bytes": 546770,
+   "sha256": "62ae9f9c6c3f33407217986290b3683217ee49078186f4616c03ec10980361a9"
+  },
+  {
+   "path": "/WAVE/76_BEATMANIA_IIDX_4.WAV",
+   "bytes": 546770,
+   "sha256": "6f15f0d7ea2133d3add8540229f4aa2e510b8cd840fbd267ce0f8d4aa9826c77"
+  },
+  {
+   "path": "/WAVE/77_CINDERELLA_GIRLS.WAV",
+   "bytes": 481570,
+   "sha256": "8b6ffc7894f5b041733e9143eebb40fc6d2c4ef73b4f1f9361fdc573c6e8ff7e"
+  },
+  {
+   "path": "/WAVE/78_MAIN_SELECTIONS.WAV",
+   "bytes": 331102,
+   "sha256": "fe1d77e5ae035b173eaf0b75a20c1c5b776d33631e2b98c5a2238d95438e119e"
+  },
+  {
+   "path": "/WAVE/V_EFF_CH50.WAV",
+   "bytes": 516678,
+   "sha256": "60256a7c612d3732cc1ea888a5d2f2006755491219534cd06f3884394b7376a1"
+  },
+  {
+   "path": "/WAVE/V_EFF_CH51.WAV",
+   "bytes": 531726,
+   "sha256": "d9c8948a0805a8bd970bac55d9100bbe202c9af1a8f89e3486416af52238bdbf"
+  },
+  {
+   "path": "/WAVE/V_EFF_CH52.WAV",
+   "bytes": 391290,
+   "sha256": "6782d194cbda4eeedfbdca5dc778d2faa93772708ffc648d38560909492363a4"
+  },
+  {
+   "path": "/WAVE/V_EFF_CH53.WAV",
+   "bytes": 391290,
+   "sha256": "1578511a1beb5eca28a8cf04ef3a682c5442ce7b8f0530c94e2fe8faa6df0bbb"
+  },
+  {
+   "path": "/WAVE/V_EFF_CH56.WAV",
+   "bytes": 496614,
+   "sha256": "8b0951794676580293885835e220a38d77ca4ae26a08d9d122cb42177ddf93c2"
+  },
+  {
+   "path": "/WAVE/V_EFF_CH58.WAV",
+   "bytes": 376242,
+   "sha256": "7dcebb21ddcadad7f8933628551776a01a78a1edb2f13838047a99bbf556e5ce"
+  },
+  {
+   "path": "/WAVE/V_EFF_CH59.WAV",
+   "bytes": 346150,
+   "sha256": "cccf716dd766936aa3b65eeb643e11b930be3f4e5c0d1e4e9e2158215f795829"
+  },
+  {
+   "path": "/WAVE/V_EFF_CH60.WAV",
+   "bytes": 391290,
+   "sha256": "0b5dba63955587945e84b95b0f5b1a4c05553f5226f4a09f3e57113d6a08e8d2"
+  },
+  {
+   "path": "/WAVE/V_EFF_CH61.WAV",
+   "bytes": 436430,
+   "sha256": "646195550acfdbc81ec3999d38454c1f10fe0a2594db49bfab4f386eac26dbee"
+  },
+  {
+   "path": "/WAVE/V_EFF_CH63.WAV",
+   "bytes": 285966,
+   "sha256": "48c589f7f2dce2ddd3d5e30039aca26f3d3b8c273f048a1c45dd441be076e7df"
+  },
+  {
+   "path": "/WAVE/V_EFF_CH64.WAV",
+   "bytes": 546770,
+   "sha256": "f6553e9ff02091f9f9ffbdd2a4f46f048cfddf69d4a9fcdee0e3eb6afd4033d9"
+  }
+ ],
+ "parent_archive": "f2_2000000232.amf"
+}

@@ -1,0 +1,15 @@
+{
+ "phase": "REVIEW_IMAGE_READY_waiting_user_approval_for_cabinet_and_RAW",
+ "run": "v364_full_01",
+ "updated_unix": 1793407704.6300342,
+ "step": "install",
+ "catalog_done": true,
+ "harness_done": true,
+ "package_done": true,
+ "install_done": true,
+ "runtime_done": true,
+ "returncode": 1,
+ "tail": "cent call last):\n  File \"D:\\Pump It Up Data\\PIU\\final_v363\\build_catalog.py\", line 171, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"D:\\Pump It Up Data\\PIU\\final_v363\\build_catalog.py\", line 146, in main\n    payloads.update(catalog_ext.extend(songs,new_rows,text,lambda t:safe_text(t,coverage),manifest))\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Pump It Up Data\\PIU\\final_v363\\infinity\\catalog_ext.py\", line 42, in extend\n    songs.insert(at+i,[gid,text(safe(s['title'])),text(safe(ARTIST_FIX.get(s['artist'],s['artist']))),text(bpm),0xffffffff,flags,struct.unpack('<I',struct.pack('<f',10.0))[0],0xffffffff,0xffffffff])\n                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Pump It Up Data\\PIU\\final_v363\\build_catalog.py\", line 146, in <lambda>\n    payloads.update(catalog_ext.extend(songs,new_rows,text,lambda t:safe_text(t,coverage),manifest))\n                                                                    ^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\Pump It Up Data\\PIU\\anime_final_v8\\display_text_v19\\prepare_display.py\", line 18, in safe_text\n    if missing:raise ValueError(('Explicit readable replacement required',text,missing))\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: ('Explicit readable replacement required', 'SATO (SANODG \u25b6\u25c0 KATO [noisycroak])', ['\u25b6', '\u25c0'])\n",
+ "version": "v378 EZ2ON channel 0x48",
+ "v370": "RISE noteskins banks 47-51 installed, V363_REVIEW_IMAGE_INSTALLED_VERIFIED"
+}

@@ -1,0 +1,340 @@
+{
+ "skins": [
+  200000
+ ],
+ "banks": [
+  47
+ ],
+ "records": [
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/HD/0.G",
+   "bytes": 552968,
+   "sha256": "de1ba6066aee9b1707e3ffc3c8621becdc2de18534ea073cb12651f9ac98c76b"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/HD/00.CFG",
+   "bytes": 228,
+   "sha256": "e96d60b9c7a310a4a83566171d2471283afbc847cff7800b265cf72a4a2c7fbc"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/HD/01.CFG",
+   "bytes": 228,
+   "sha256": "e96d60b9c7a310a4a83566171d2471283afbc847cff7800b265cf72a4a2c7fbc"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/HD/1.G",
+   "bytes": 552968,
+   "sha256": "bda50a52eaf7968a2ffae0f3ff8f0b994a6b6508fe6c43bd3f73a0e636d07162"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/HD/2.G",
+   "bytes": 552968,
+   "sha256": "be755d499a07edc0cc6162dc455fe1c20ab5e6fe5bbc2b173eae57b6bfc6c6b0"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/HD/3.G",
+   "bytes": 552968,
+   "sha256": "43ad0dbee5172ecf662324e98f58e96b8e6d4bfed57d11ac9b9b181142b9c948"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/HD/4.G",
+   "bytes": 552968,
+   "sha256": "3e28a1e8f49d59e0a0b262d26dcfc1667f05dbe1696683c8a81882446be7f076"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/HD/47.CFG",
+   "bytes": 228,
+   "sha256": "e96d60b9c7a310a4a83566171d2471283afbc847cff7800b265cf72a4a2c7fbc"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/HD/5.G",
+   "bytes": 552968,
+   "sha256": "15b5147b7e74d2b9258d02f1ab688d85ac26b87f870edc7fd1faa1f955ca823b"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/HD/6.G",
+   "bytes": 368648,
+   "sha256": "c504501757d8e9c8f3f6dbab4568af2f3b9bd9b343042b768a2029d8d8bf9c78"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/HD/BASE.G",
+   "bytes": 368648,
+   "sha256": "884c38ee3ba9c061cfb7be62eaf90b2c90ded68dd8dd0cd157d7243699188dc6"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/HD/HD1.G",
+   "bytes": 368648,
+   "sha256": "3e535c8815395506200723f9ffdceb4c605f3bddf9abb1221296bcd7a4f5ce1d"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/HD/HD2.G",
+   "bytes": 368648,
+   "sha256": "4e99f49ca26ea721a9267cd98492274911604f5339830e34fc92a5214ff607fd"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/HD/SPARK1.SPR",
+   "bytes": 227,
+   "sha256": "e1d223e2e780d6232a34e2a31366c7bdf268daefbc37c8c1f2dfe6bdb703a440"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/HD/STEPFX00_0.G",
+   "bytes": 786440,
+   "sha256": "043ad0d491ae66b9c189d80e2e547647c7dfc8e041d1c37c26148bcfdb386ab0"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/HD/STEPFX00_1.G",
+   "bytes": 786440,
+   "sha256": "2acd0acd7cb7427337f41abda71eeb5378266cded8f816dc37d5e02e7fff2632"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/HD/STEPFX00_2.G",
+   "bytes": 786440,
+   "sha256": "6319b2a88e28d3ff8eb60886b267323c7c2068cdb409c77e499a8db34c27f6c0"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/HD/STEPFX00_3.G",
+   "bytes": 786440,
+   "sha256": "5eefc6a76129b797e56cc7d6719fefdf6fde33b3de1065fe1917697d7ad09937"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/HD/STEPFX00_4.G",
+   "bytes": 786440,
+   "sha256": "dad2a76f5f680575416e01683219ac4556495c38ef151ecb6080b9bdbf0aa700"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/SD/0.G",
+   "bytes": 245768,
+   "sha256": "fe43c036aaa087e1019319f1b4cede01512779ebb70aa77f112091f8fa9204dd"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/SD/00.CFG",
+   "bytes": 228,
+   "sha256": "6c42cdf8f85f5b0885f06a49dd9237e867ecb40c0933b05bbec3e30aad8d3dae"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/SD/01.CFG",
+   "bytes": 228,
+   "sha256": "6c42cdf8f85f5b0885f06a49dd9237e867ecb40c0933b05bbec3e30aad8d3dae"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/SD/1.G",
+   "bytes": 245768,
+   "sha256": "4cede93899d3b744e7ec97df43b8dd62eb38d6881c183564b3864ef6e70043e0"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/SD/2.G",
+   "bytes": 245768,
+   "sha256": "11f517a50b48ffeba22c1de197c6412c90e463c76b6aa7d730cdcda9207540c0"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/SD/3.G",
+   "bytes": 245768,
+   "sha256": "555052bbb6924554ca08209c2befadb3fb0cadcfee60a66efd7c866b9f4d50eb"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/SD/4.G",
+   "bytes": 245768,
+   "sha256": "3b6599fae9a9ecee6f251559367d1219633a6636765772fed36dd36195a83c55"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/SD/47.CFG",
+   "bytes": 228,
+   "sha256": "6c42cdf8f85f5b0885f06a49dd9237e867ecb40c0933b05bbec3e30aad8d3dae"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/SD/5.G",
+   "bytes": 245768,
+   "sha256": "f7c750c9cfbb0112d92b97f6c6fe89618c1740bccf0c9e5b1ea166e5b317903d"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/SD/6.G",
+   "bytes": 163848,
+   "sha256": "1cd4b9c70f2e6d3f20015a9934095696a556f09fb916245d5b952d01bc22b55c"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/SD/BASE.G",
+   "bytes": 163848,
+   "sha256": "c22d6fa09e770f4595759772b620feb7972ffbf8a1313033e8a71658666931cf"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/SD/HD1.G",
+   "bytes": 163848,
+   "sha256": "d9f7d66739414225dc53caf8f7476cb2d1cf4583bd8cf1d65912feedfa18263a"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/SD/HD2.G",
+   "bytes": 163848,
+   "sha256": "84d89b76cea01673da28fc449d0190477dc636d4cec0cef74232c9de48763dc5"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/SD/SPARK1.SPR",
+   "bytes": 227,
+   "sha256": "f3dd37a3a727ccc7cdc91c6ecbbb7cd6bad949935b190f36663a48c4c0a31177"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/SD/STEPFX00_0.G",
+   "bytes": 196616,
+   "sha256": "a46254481ee5f686c8268e7e033fa0bf470547190cbd5babf07f6bbfb81456e6"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/SD/STEPFX00_1.G",
+   "bytes": 196616,
+   "sha256": "b083f6391f5b220ea40bf9750bc7e64b8addcd4f19da5c706be1f61e4ac8f337"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/SD/STEPFX00_2.G",
+   "bytes": 196616,
+   "sha256": "27e12d6cb3b147308e03059017cfd151c92bd6d6b31f663be3b14a9965b8d7fa"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/SD/STEPFX00_3.G",
+   "bytes": 196616,
+   "sha256": "f5e12e266a3e45dde8ce9f06a5cf48039fbbcb7d337fc07d087216be0b21ec3b"
+  },
+  {
+   "path": "/USER_INTERFACE/PLAY/SKIN/47/SD/STEPFX00_4.G",
+   "bytes": 196616,
+   "sha256": "9c25f21291e6e51334d8b5a2976ef091c32025506d53473eb425de9a6e634857"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/HD/NS_PHOENIX_DIS_1.G",
+   "bytes": 16392,
+   "sha256": "3fb4d73f2b50f0908eee4a82bb1a35e39a24dd0c05833ac7ba8ad60805eaf862"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/HD/NS_PHOENIX_OFF_0.G",
+   "bytes": 16392,
+   "sha256": "3031ce800c1c422b0615e958397b0fbc47cd86f5e173c99b5ed30f5ad9b744c1"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/HD/NS_PHOENIX_ON_0.G",
+   "bytes": 16392,
+   "sha256": "3fb4d73f2b50f0908eee4a82bb1a35e39a24dd0c05833ac7ba8ad60805eaf862"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/HD/NS_RISE1_DIS_0.G",
+   "bytes": 16392,
+   "sha256": "971a8c623842d9534d6ea8ba47cbd8477c08376a2b2ef2057bacdc3f254bde54"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/HD/NS_RISE1_DIS_1.G",
+   "bytes": 16392,
+   "sha256": "c3f3a32ac60837a5bbdfa15b8eb239566fba86dd47c7f128d7cf3b89647a15c9"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/HD/NS_RISE1_OFF_0.G",
+   "bytes": 16392,
+   "sha256": "9d04131f516900984b8ab1f9d2208de63c42031b2328d882ccfb840fa050eebb"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/HD/NS_RISE1_ON_0.G",
+   "bytes": 16392,
+   "sha256": "c3f3a32ac60837a5bbdfa15b8eb239566fba86dd47c7f128d7cf3b89647a15c9"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/HD/NS_RISE_HELP.G",
+   "bytes": 66248,
+   "sha256": "8857ee09513f2024ac33fec5b46e86962065775f270cda888ea78ab7cae87a2d"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/HD/SKIN_RISE1_DIS_EN.SPR",
+   "bytes": 102,
+   "sha256": "71978e507a1117d4d3da502af99993828a287e0273848908b758c3a8453b6e34"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/HD/SKIN_RISE1_OFF_EN.SPR",
+   "bytes": 60,
+   "sha256": "19680d850eae6596e1cbf7048117de3453e9db986df0df4d27eb4e8eed35e29e"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/HD/SKIN_RISE1_ON_EN.SPR",
+   "bytes": 59,
+   "sha256": "9c0436582084759557d6903c6dc0482fc6031d176275fad37558ee1733a2b967"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/HD/SKIN_RISE_HELP_DIS_EN.SPR",
+   "bytes": 60,
+   "sha256": "53238184247b640e02abb525775407f0700fd95c5616e77575beb9d43cab285f"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/HD/SKIN_RISE_HELP_OFF_EN.SPR",
+   "bytes": 60,
+   "sha256": "53238184247b640e02abb525775407f0700fd95c5616e77575beb9d43cab285f"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/HD/SKIN_RISE_HELP_ON_EN.SPR",
+   "bytes": 60,
+   "sha256": "53238184247b640e02abb525775407f0700fd95c5616e77575beb9d43cab285f"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/SD/NS_PHOENIX_DIS_1.G",
+   "bytes": 16392,
+   "sha256": "25b55e9754341fc6f15a6d913edf545d65f164a73f7f4d63b8e1c85304fbd0fc"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/SD/NS_PHOENIX_OFF_0.G",
+   "bytes": 16392,
+   "sha256": "14475d74f865baa1d3251b8f5bcaf5e18dfc3ad5aa3430c7d46705f4c0ca90b7"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/SD/NS_PHOENIX_ON_0.G",
+   "bytes": 16392,
+   "sha256": "25b55e9754341fc6f15a6d913edf545d65f164a73f7f4d63b8e1c85304fbd0fc"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/SD/NS_RISE1_DIS_0.G",
+   "bytes": 16392,
+   "sha256": "bd4aa8c741066557319b35d987c756d3400b2674615f4e8e350ee403bc6d872b"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/SD/NS_RISE1_DIS_1.G",
+   "bytes": 16392,
+   "sha256": "b6755297c4042c58eaa759c1ad891b6a6f465d7c84eb7a79e876f14796537c03"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/SD/NS_RISE1_OFF_0.G",
+   "bytes": 16392,
+   "sha256": "a645ddefe747574797b8299ef05f20dc38bd0907d9e8e9e0071a9cb58872a798"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/SD/NS_RISE1_ON_0.G",
+   "bytes": 16392,
+   "sha256": "b6755297c4042c58eaa759c1ad891b6a6f465d7c84eb7a79e876f14796537c03"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/SD/NS_RISE_HELP.G",
+   "bytes": 29576,
+   "sha256": "6dd7f7c78aa445c16ef9ffaeb5ffa34077a8ccd2db3366bebbec052d90e15807"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/SD/SKIN_RISE1_DIS_EN.SPR",
+   "bytes": 102,
+   "sha256": "7c935f59e370f13df283e149de180f101c052bd9b81347dcb34aea25561c977a"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/SD/SKIN_RISE1_OFF_EN.SPR",
+   "bytes": 60,
+   "sha256": "421c2e08c96deba49fb4434210d7aef3802a2a15f88fc14aee9a5169ca09d532"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/SD/SKIN_RISE1_ON_EN.SPR",
+   "bytes": 59,
+   "sha256": "8ebbb642746b49f54870c40a35f95898b4018c8d347019f28bcf14ce6efdb130"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/SD/SKIN_RISE_HELP_DIS_EN.SPR",
+   "bytes": 60,
+   "sha256": "5cfca14ff65b64636be63ae274b67d4079d4dc5ae5667cdbd14640931c9f3d79"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/SD/SKIN_RISE_HELP_OFF_EN.SPR",
+   "bytes": 60,
+   "sha256": "5cfca14ff65b64636be63ae274b67d4079d4dc5ae5667cdbd14640931c9f3d79"
+  },
+  {
+   "path": "/USER_INTERFACE/SELECT/COMMAND/COMMAND_ICON/SD/SKIN_RISE_HELP_ON_EN.SPR",
+   "bytes": 60,
+   "sha256": "5cfca14ff65b64636be63ae274b67d4079d4dc5ae5667cdbd14640931c9f3d79"
+  }
+ ]
+}

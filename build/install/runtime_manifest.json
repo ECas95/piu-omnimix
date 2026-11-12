@@ -1,0 +1,28 @@
+{
+ "runtime_sha256": "e34f055eb556b0c7ee65acb41772c358752cfdd5899206e76334a60143ff2895",
+ "parent_runtime_sha256": "5bfbe87cb281e95166b62744a22b25d8fae8e05e80156682437eb0fcae3709a0",
+ "cabinet_module": {
+  "path": "D:\\Pump It Up Data\\PIU\\final_v363\\runtime_merged17\\cabinet_runtime\\piu_channels_cabinet_dss.so",
+  "sha256": "262a9497447238fc60a1d129ab578cb9391b6907e70f78a2131526bedf0ed912",
+  "bytes": 197952,
+  "source_sha256": {
+   "am030614.h": "8c4597660bc7bb35baf748e8c1fd009c49c725d0fce4b6b96d9a89e8fa3af38d",
+   "anime_title_order.h": "9eac62854078af0ff5f0c0c677d74ab0c20da857afbb2219a428d172dc2edc48",
+   "at93c86.h": "d0e357d06eaa4dad7b0e868bec5779f1239af408c4b65664925a9aa839b714dc",
+   "cat702.h": "a9e2f928d3f85155cc4dbb2ca17c71bc31d1fc87160f3adebaee02e50b71f676",
+   "channels.c": "01c4bc7ee9172da4ab153005fc1410cc15dfec6377d158849a30990a2d3c3236",
+   "channel_policy.h": "cdc807e812cd4daa8b3480847dd779fd0d9663e51aaccbebfe152fcb779604c2",
+   "ioport.h": "71a936154e5f86a94fa0fa867d7b5a9a35b1b52dbfc50b2cc6556100558967dc",
+   "keyboardio.h": "246249bce0dc024dee553c7ec8565c258c8751b44c3702fc326ca8b24af0a733",
+   "mk5.h": "32c58228a213e48b03fb7e04ebe23ba8ff5975780bc237331a54d5e114a1dcb7",
+   "modtable_sites.h": "90042ff4f7961374f4219d5d9472bbb34223a7325cfc240c3847f7fa72e6dad1",
+   "noteskin.c": "e1cd5d3ba851a02e2cf7b757a452f7856bc6c25b4207a4808d94ec8f1437e023",
+   "prime2_chart_owners.h": "5b47595ab6dd72ad977d5acb2a7ca6ef4f35011ef900bf0b84e99f437b2d8373",
+   "selector_resources.c": "7e6050d2c6fb8d62bd806d8de69c4055b00b3011cb607ceff963cd39f9dc730b",
+   "selector_texture_sites.h": "7bdf36604ef5151eb6d0717fecaba11c87aaa9b6f058d76b99ce2674c523fa1a",
+   "sigdriver.h": "4723e26788a452810ab9a47f3b9a0adb77e60a023e00dea2bd4fef6e58987630",
+   "usb.h": "75365d482605cbfc276ebec3ae5e229ee7d15d0b709f0ce227b375ead3d754d4",
+   "wallpapers.c": "5fb78679317baf4e6dca13b1c8b22191fd36b09ce45b7329dcfb1b4276fb1200"
+  }
+ }
+}

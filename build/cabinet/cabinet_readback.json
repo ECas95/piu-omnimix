@@ -1,0 +1,12 @@
+{
+ "pass_": true,
+ "module_sha256": "262a9497447238fc60a1d129ab578cb9391b6907e70f78a2131526bedf0ed912",
+ "replaced_trial_sha256": "e34f055eb556b0c7ee65acb41772c358752cfdd5899206e76334a60143ff2895",
+ "keyboard_hook_removed": true,
+ "share_mount_removed": true,
+ "virtio_override_removed": true,
+ "nvidia_detect_restored": true,
+ "fsck_p1_p3_pass": true,
+ "readonly_reopened": true,
+ "checked_unix": 1793409484.0334597
+}
