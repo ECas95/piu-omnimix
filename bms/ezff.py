@@ -5,7 +5,11 @@ from pathlib import Path
 def parse(p):
     e=Path(p).read_bytes();assert e[:4]==b'EZFF',p
     ver=e[5];tpm,=struct.unpack_from('<H',e,0x86);bpm,=struct.unpack_from('<f',e,0x88);ntr,=struct.unpack_from('<H',e,0x8c)
-    stride=13 if ver>=8 else 11;o=0x96;tracks=[]
+    o=0x96;sizes=[]
+    for k in range(ntr):
+        size,=struct.unpack_from('<I',e,o+0x4a);sizes.append(size);o+=0x4e+size
+    stride=next((st for st in ((13,11,12) if ver>=7 else (11,13,12)) if all(z%st==0 for z in sizes)),13 if ver>=7 else 11)
+    o=0x96;tracks=[]
     for k in range(ntr):
         assert e[o:o+4]==b'EZTR',(p,k,o);name=e[o+6:o+0x46].split(b'\0')[0].decode('latin1');size,=struct.unpack_from('<I',e,o+0x4a);o+=0x4e
         ev=[]

@@ -8,12 +8,13 @@ Usage: python -I ez2on_to_bms.py [song ...]"""
 from pathlib import Path
 from math import gcd
 from fractions import Fraction as F
-import sys,json,re,os,shutil,collections,struct
+import sys,json,re,os,shutil,collections,struct,subprocess
 sys.dont_write_bytecode=True
 sys.path.insert(0,r'D:\PIU_PRESERVADO\tools')
 import ezff
+SYNC=json.loads(Path(r'D:\EZ2ON_PIU\sync_final.json').read_text())
 SRC=Path(r'D:\eeez2abackup\EZ2ON_ORGANIZADO');OUT=Path(r'D:\PIU_PRESERVADO\BMS_EZ2ON')
-B36='0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+B36='0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';B62=B36+'abcdefghijklmnopqrstuvwxyz'
 b36=lambda n:B36[n//36]+B36[n%36]
 DIFF={'ez':1,'nm':2,'hd':3,'shd':4}
 def row(slots,n):
@@ -61,7 +62,10 @@ def timing(c):
     return at,tick,bp,meas
 
 def ez_chart(path,stem_files,title,artist,level,diff,gstart):
-    c=ezff.parse(path);ins=json.loads(Path(str(path).replace('_ez.ez','_instrumentDic.json')).read_text());names={int(i):s for i,s in ins}
+    c=ezff.parse(path);jp=Path(str(path).replace('_ez.ez','_instrumentDic.json'))
+    names={int(i):s for i,s in json.loads(jp.read_text())} if jp.exists() else {i:re.sub(r'\.\w+$','',f) for i,f in ezff.ezi(str(path).replace('_ez.ez','_ezi.ezi')).items()}
+    big=len(set(names.values()))>1290;B=B62 if big else B36
+    b36=lambda n:B[n//len(B)]+B[n%len(B)]
     tpm=c['ticks_per_measure'];at,tick,bpms,meas=timing(c);wavs={};code={}
     def wavcode(sid):
         if sid in code:return code[sid]
@@ -72,10 +76,7 @@ def ez_chart(path,stem_files,title,artist,level,diff,gstart):
         code[sid]=wavs[f];return code[sid]
     lanes={};bgm=collections.defaultdict(list);hold={};end=0;mr_tick=None
     for i,(tn,ev) in enumerate(c['tracks']):
-        m=re.match(r'\((\d)P\)(Line (\d)|Scratch)',tn);ch=None
-        if m:
-            base=10 if m.group(1)=='1' else 20
-            ch=base+(6 if m.group(3) is None else (int(m.group(3)) if int(m.group(3))<=5 else {6:8,7:9}[int(m.group(3))]))
+        K=int(Path(path).name[0]);ch={3:11,4:12,5:13,6:14,7:15,8:18,9:19,10:16}.get(i) if 3<=i<3+K else None
         for e in ev:
             if e[1]!=1:continue
             p,_,sid,vel,pan,ln=e;cd=wavcode(sid)
@@ -102,15 +103,22 @@ def ez_chart(path,stem_files,title,artist,level,diff,gstart):
     bpmcode={}
     for _,b in bpms:bpmcode.setdefault(round(b,4),b36(len(bpmcode)+1))
     two=any(ch>=20 for ch in lanes)
-    h=['*---------------------- HEADER FIELD','#PLAYER '+('3' if two else '1'),'#GENRE EZ2ON','#TITLE '+title,'#SUBTITLE ['+Path(path).stem.split('_')[0].upper()+' '+diff.upper()+']','#ARTIST '+artist,f'#BPM {round(bpms[0][1],4)}',f'#PLAYLEVEL {level}','#DIFFICULTY '+str(DIFF.get(diff,4)),'#RANK 2','#LNTYPE 1','#STAGEFILE Banner.png','#BANNER Banner.png','#BMP01 BGA.mp4','*source: EZ2ON REBOOT R '+Path(path).name]
+    h=['*---------------------- HEADER FIELD','#PLAYER '+('3' if two else '1'),'#GENRE EZ2ON','#TITLE '+title,'#SUBTITLE ['+Path(path).stem.split('_')[0].upper()+' '+diff.upper()+']','#ARTIST '+artist,f'#BPM {round(bpms[0][1],4)}',f'#PLAYLEVEL {level}','#DIFFICULTY '+str(DIFF.get(diff,4)),'#RANK 2','#LNTYPE 1']+(['#BASE 62'] if big else [])+['#STAGEFILE Banner.png','#BANNER Banner.png','#BMP01 BGA.mp4','*source: EZ2ON REBOOT R '+Path(path).name]
     for f,cd in wavs.items():h.append(f'#WAV{cd} {f}')
     for b,cd in bpmcode.items():h.append(f'#BPM{cd} {b}')
     body=['','*---------------------- MAIN DATA FIELD'];cur=4;mset={p//tpm for p,_ in meas}
+    bpm_m=collections.defaultdict(dict)
+    for p,b in bpms:
+        if p>0:bpm_m[p//tpm][p%tpm]=bpmcode[round(b,4)]
+    meas_m={}
+    for p,n in meas:meas_m[p//tpm]=n
+    lane_m=collections.defaultdict(lambda:collections.defaultdict(dict))
+    for ch,L in lanes.items():
+        for p,cd in L.items():lane_m[ch][p//tpm][p%tpm]=cd
     for mi in range(last_m+1):
-        for p,n in meas:
-            if p//tpm==mi:cur=n
+        if mi in meas_m:cur=meas_m[mi]
         if mi in mset and cur!=4:body.append(f'#{mi:03d}02:{cur/4:g}')
-        sl={p%tpm:bpmcode[round(b,4)] for p,b in bpms if p//tpm==mi and p>0}
+        sl=bpm_m.get(mi)
         if sl:body.append(f'#{mi:03d}08:{row(sl,tpm)}')
         if bga and bga[0]==mi:body.append(f'#{mi:03d}04:{row({bga[1]:"01"},tpm)}')
         lay=[]
@@ -120,7 +128,7 @@ def ez_chart(path,stem_files,title,artist,level,diff,gstart):
                 lay[k][r]=cd
         for layer in lay:body.append(f'#{mi:03d}01:{row(layer,tpm)}')
         for ch,L in sorted(lanes.items()):
-            sl={p%tpm:cd for p,cd in L.items() if p//tpm==mi}
+            sl=lane_m[ch].get(mi)
             if not sl:continue
             lp=lnset.get(ch,set());a={p:cd for p,cd in sl.items() if mi*tpm+p not in lp};b={p:cd for p,cd in sl.items() if mi*tpm+p in lp}
             if a:body.append(f'#{mi:03d}{ch:02d}:{row(a,tpm)}')
@@ -160,11 +168,24 @@ def song(name):
             t=b.read_text(encoding='utf8').splitlines();bpm=next((float(l.split()[1]) for l in t if l.startswith('#BPM ')),None)
             add=['#STAGEFILE Banner.png','#BANNER Banner.png','#BMP01 BGA.mp4']
             t=[l for l in t if not l.startswith(('#STAGEFILE','#BANNER','#BMP01'))]
+            sy=SYNC.get(name);lag=sy.get('lag_ms') if sy else None;T0=None
+            if lag is not None and (d/'Song.mp3').exists():
+                # measured: time in Song.mp3 = chart time + lag  ->  Song.mp3 starts at chart time -lag
+                T0=-lag/1000;sm=out/'Song_sync.mp3'
+                if not sm.exists():
+                    if T0>0:cmd=['ffmpeg','-v','error','-y','-i',str(d/'Song.mp3'),'-af',f'adelay={int(round(T0*1000))}:all=1','-q:a','2',str(sm)]
+                    else:cmd=['ffmpeg','-v','error','-y','-ss',str(-T0),'-i',str(d/'Song.mp3'),'-q:a','2',str(sm)]
+                    subprocess.run(cmd,check=True)
+                t=[l for l in t if not re.match(r'^#\d{3}01:',l)]
+                t=[('#WAV01 Song_sync.mp3' if l.startswith('#WAV01') else l) for l in t]
+                res['sync']=sy.get('status')
             i=next((k for k,l in enumerate(t) if l.startswith('#WAV01')),1);t[i:i]=add
+            j=next((q for q,l in enumerate(t) if l.startswith('*---') and 'MAIN' in l),len(t)-1)
+            if T0 is not None:t.insert(j+1,'#00001:01')
             if gs is not None and bpm and (d/'BGA.mp4').exists():
-                T=max(4*60/bpm+gs,0.);beats=T*bpm/60;mi=int(beats//4);k=int(round((beats-4*mi)/4*192)) # constant first-BPM approximation
+                T=max((T0 if T0 is not None else 4*60/bpm)+gs,0.);beats=T*bpm/60;mi=int(beats//4);k=int(round((beats-4*mi)/4*192)) # constant first-BPM approximation
                 if k>=192:mi+=1;k=0
-                j=next((q for q,l in enumerate(t) if l.startswith('*---') and 'MAIN' in l),len(t)-1);t.insert(j+1,f'#{mi:03d}04:{row({k:"01"},192)}')
+                t.insert(j+1,f'#{mi:03d}04:{row({k:"01"},192)}')
             (out/b.name).write_text('\n'.join(t)+'\n',encoding='utf8');res['charts'].append(dict(chart=b.stem))
     mark.write_text(json.dumps(res,indent=1));return res
 
