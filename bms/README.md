@@ -7,6 +7,8 @@ Convert the source games' charts to **BMS** (keysounds where the source has them
 | `sss_to_bms.py` | Sabin Sound Star `.sss` (keyboard 1x/2x and percussion 3x) | one `.bms` per chart, decoded keysounds, `song.mp3` (autoplay mix), `banner.png`, `bga.mp4` |
 | `ez2on_to_bms.py` | EZ2ON REBOOT R (`.ez` + `.ezi`/instrumentDic, or ez2pattern BMS) | `<N>S_<DIFF>.bms`, keysounds, `Song.mp3`, `BGA.mp4`, `Banner.png`, `Cover.png` |
 | `rise_to_bms.py` | PIU RISE Season 2 NX charts | `<chart>.bms`, `song.mp3`, `bga.mp4`, `banner.png`, `preview.mp3` |
+| `djmax_to_bms.py` | DJMAX RESPECT (PS4) Unity charts, all modes (4B/5B/6B/8B × NM/HD/MX/SC) | `<K>B_<DIFF>.bms`, keysounds (`.wav` exactly as stored in the sound banks), `raw_charts/` (original bytes incl. MV), `song.mp3` (official full mix), `bga.mp4`, `banner.png`, `gallery/`, `collection.mp4`, `preview`, `metadata.json` |
+| `verify_djmax.py`, `djmax_fill_missing.py` | checks (note heads vs the original parser, missing samples, media) / searches other bundles for missing samples | — |
 | `ezff.py` | EZFF reader (EZ2ON `.ez`, shared container with SSS/DJMAX) | — |
 
 ## Lane maps
@@ -26,3 +28,9 @@ Convert the source games' charts to **BMS** (keysounds where the source has them
 - ez2pattern BGA position uses the first BPM (approximate if the BPM changes before the BGA starts).
 - RISE charts with gimmick parameters (speed/warp) keep only their notes.
 - A few songs reference samples that are not in the source banks; those BMS load but are incomplete.
+
+## DJMAX RESPECT notes
+- Charts: u32 ticks (192 per measure), 13-byte events; lanes 4B tracks 3-6, 5B 3-7, 6B 3-8, 8B 3-8 + side buttons 10/11 (BMS 16 and 19). Holds = length > 6 ticks (LN type 1). Playable notes without a keysound are kept as silent notes (`blank.wav`).
+- BGA is placed at the song's measured start (`bga_start_seconds`); the chart clock is the official MV clock, which is also the clock of `song.mp3`.
+- Levels: from the RESPECT2BMS table (218 songs) or the 5-key level of the official metadata; otherwise 0.
+- Verified: 6,092 of 6,097 charts have exactly the original parser's note count (the rest differ by 1-2 notes at hold tails). Three songs (`emerge`, `spacedream`, `zerobreak`) reference one sample that does not exist in the game data.
