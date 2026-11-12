@@ -17,7 +17,7 @@ Convert the source games' charts to **BMS** (keysounds where the source has them
 
 ## Synchronisation
 - Keysounded EZ2ON charts use the game's own timeline (self-consistent).
-- EZ2ON charts that exist only as ez2pattern BMS are aligned to `Song.mp3` with the measured per-song lag (`time in Song.mp3 = chart time + lag`): `Song_sync.mp3` is `Song.mp3` shifted so that BMS time 0 is chart time 0, and the BGA object is placed at `-lag + BGA start`. Songs without a measurement keep the original assumption (song on measure 1).
+- EZ2ON charts that exist only as ez2pattern BMS are aligned to `Song.mp3` with the measured per-song lag (`time in Song.mp3 = chart time + lag`). In these files wav `01` is a silent placeholder (`blank.wav`) used by every note and wav `02` is the song: the `02` object is placed at chart time `-lag` (following the file's own BPM and measure-length changes), and the BGA object at `-lag + BGA start`. If the lag is positive the song is trimmed (`Song_sync.mp3`) and placed at 0. `verify_ez2on_sync.py` checks every song (245/245 within 15 ms). Songs without a measurement keep the original assumption (song on measure 1).
 - RISE: `song.mp3`/`bga.mp4` are shifted so that BMS time 0 = NX beat 0.
 - SSS: BGA is padded with black up to the game's `.del` value (or the measured synchronisation).
 

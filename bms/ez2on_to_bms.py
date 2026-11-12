@@ -135,6 +135,34 @@ def ez_chart(path,stem_files,title,artist,level,diff,gstart):
             if b:body.append(f'#{mi:03d}{ch+40:02d}:{row(b,tpm)}')
     return '\n'.join(h+body)+'\n',dict(chart=Path(path).stem,notes=sum(len(v) for v in lanes.values()),holds=sum(len(v)//2 for v in ln.values()),bga=bool(bga))
 
+def time_to_pos(lines,T,res=768):
+    """seconds -> (measure, slot of `res`) following the BMS's own BPM (#BPM/#BPMxx + ch08) and measure-length (ch02) changes."""
+    base=next((float(l.split()[1]) for l in lines if l.startswith('#BPM ')),120.)
+    tab={m.group(1).upper():float(m.group(2)) for l in lines for m in [re.match(r'^#BPM(\w\w)\s+([\d.]+)',l)] if m}
+    ln={};ev=collections.defaultdict(list)
+    for l in lines:
+        m=re.match(r'^#(\d{3})(02|08|03):(.+)$',l)
+        if not m:continue
+        mi=int(m.group(1))
+        if m.group(2)=='02':ln[mi]=float(m.group(3))
+        else:
+            cells=[m.group(3)[i:i+2] for i in range(0,len(m.group(3))-1,2)]
+            for i,c in enumerate(cells):
+                if c=='00':continue
+                v=tab.get(c.upper()) if m.group(2)=='08' else float(int(c,16))
+                if v:ev[mi].append((i/len(cells),v))
+    bpm=base;t=0.
+    for mi in range(0,5000):
+        L=ln.get(mi,1.0);prev=0.
+        for f,v in sorted(ev.get(mi,[])+[(1.0,None)]):
+            dt=(f-prev)*4*L*60/bpm
+            if t+dt>=T:
+                frac=prev+(T-t)/(4*L*60/bpm);k=min(int(round(frac*res)),res-1) if frac<1 else res-1
+                return mi,k
+            t+=dt;prev=f
+            if v:bpm=v
+    return 0,0
+
 def song(name):
     d=SRC/name;out=OUT/name;mark=out/'done.json'
     if mark.exists():return json.loads(mark.read_text())
@@ -164,29 +192,32 @@ def song(name):
     else:
         bms=sorted(d.glob('*.bms'))
         if bms:res['mode']='ez2pattern'
+        if bms:
+            import wave
+            with wave.open(str(out/'blank.wav'),'wb') as w:w.setnchannels(1);w.setsampwidth(2);w.setframerate(44100);w.writeframes(b'\x00\x00'*2205)
         for b in bms:
-            t=b.read_text(encoding='utf8').splitlines();bpm=next((float(l.split()[1]) for l in t if l.startswith('#BPM ')),None)
-            add=['#STAGEFILE Banner.png','#BANNER Banner.png','#BMP01 BGA.mp4']
-            t=[l for l in t if not l.startswith(('#STAGEFILE','#BANNER','#BMP01'))]
-            sy=SYNC.get(name);lag=sy.get('lag_ms') if sy else None;T0=None
+            t=b.read_text(encoding='utf8').splitlines()
+            base=next((float(l.split()[1]) for l in t if l.startswith('#BPM ')),120.)
+            # in the ez2pattern files every note is wav 01 (placeholder) and 01 was also the song: here 01 = silence, 02 = the song
+            t=[l for l in t if not l.startswith(('#STAGEFILE','#BANNER','#BMP01','#WAV01','#WAV02')) and not re.match(r'^#\d{3}01:',l)]
+            sy=SYNC.get(name);lag=sy.get('lag_ms') if sy else None;song='Song.mp3';T0=None
             if lag is not None and (d/'Song.mp3').exists():
                 # measured: time in Song.mp3 = chart time + lag  ->  Song.mp3 starts at chart time -lag
-                T0=-lag/1000;sm=out/'Song_sync.mp3'
-                if not sm.exists():
-                    if T0>0:cmd=['ffmpeg','-v','error','-y','-i',str(d/'Song.mp3'),'-af',f'adelay={int(round(T0*1000))}:all=1','-q:a','2',str(sm)]
-                    else:cmd=['ffmpeg','-v','error','-y','-ss',str(-T0),'-i',str(d/'Song.mp3'),'-q:a','2',str(sm)]
-                    subprocess.run(cmd,check=True)
-                t=[l for l in t if not re.match(r'^#\d{3}01:',l)]
-                t=[('#WAV01 Song_sync.mp3' if l.startswith('#WAV01') else l) for l in t]
-                res['sync']=sy.get('status')
-            i=next((k for k,l in enumerate(t) if l.startswith('#WAV01')),1);t[i:i]=add
+                T0=-lag/1000;res['sync']=sy.get('status')
+                if T0<0:   # the song must be trimmed: it starts before chart time 0
+                    sm=out/'Song_sync.mp3'
+                    if not sm.exists():subprocess.run(['ffmpeg','-v','error','-y','-ss',str(-T0),'-i',str(d/'Song.mp3'),'-q:a','2',str(sm)],check=True)
+                    song='Song_sync.mp3';T0=0.
+            add=['#STAGEFILE Banner.png','#BANNER Banner.png','#BMP01 BGA.mp4','#WAV01 blank.wav','#WAV02 '+song]
             j=next((q for q,l in enumerate(t) if l.startswith('*---') and 'MAIN' in l),len(t)-1)
-            if T0 is not None:t.insert(j+1,'#00001:01')
-            if gs is not None and bpm and (d/'BGA.mp4').exists():
-                T=max((T0 if T0 is not None else 4*60/bpm)+gs,0.);beats=T*bpm/60;mi=int(beats//4);k=int(round((beats-4*mi)/4*192)) # constant first-BPM approximation
-                if k>=192:mi+=1;k=0
-                t.insert(j+1,f'#{mi:03d}04:{row({k:"01"},192)}')
-            (out/b.name).write_text('\n'.join(t)+'\n',encoding='utf8');res['charts'].append(dict(chart=b.stem))
+            t[j:j]=add;j+=len(add)
+            tm1=4*60/base   # no measurement: song on measure 1 (the game's convention)
+            tb=T0 if T0 is not None else tm1
+            m,k=(1,0) if T0 is None else time_to_pos(t,T0)
+            t.insert(j+1,f'#{m:03d}01:{row({k:"02"},768)}')
+            if gs is not None and (d/'BGA.mp4').exists():
+                m,k=time_to_pos(t,max(tb+gs,0.));t.insert(j+1,f'#{m:03d}04:{row({k:"01"},768)}')
+            (out/b.name).write_text(chr(10).join(t)+chr(10),encoding='utf8');res['charts'].append(dict(chart=b.stem))
     mark.write_text(json.dumps(res,indent=1));return res
 
 if __name__=='__main__':
