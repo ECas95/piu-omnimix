@@ -1,24 +1,24 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""indice_f15.py — Índice de los contenedores AMF de F15 (PRIME), por región.
+"""indice_f15.py - index of the F15 (PRIME) AMF containers, per region.
 
-F15 tiene DOS juegos de datos (dos regiones), cada uno con su propia cadena de
-contenedores y su propia numeración de bloques:
+F15 has TWO data sets (two regions), each with its own chain of containers
+and its own block numbering:
 
-    /mnt/game/F15/INT/  24 contenedores F2_*.AMF  (~52 GB)
-    /mnt/game/F15/JPY/  19 contenedores F2_*.AMF  (~30 GB)
+    /mnt/game/F15/INT/  24 containers F2_*.AMF  (~52 GB)
+    /mnt/game/F15/JPY/  19 containers F2_*.AMF  (~30 GB)
 
-La cabecera AMF es la misma que en F17/F19 (no necesita claves):
+The AMF header is the same as in F17/F19:
 
-    A = bloque 0 ; adler32(A[4:0x1000], 41973) == u32(A[0:4])
+    A = block 0 ; adler32(A[4:0x1000], 41973) == u32(A[0:4])
     nxt = u32(A[0xffc]) ^ u32(A[4:8])
-    D   = A ^ bloque((nxt+1)*0x1000) ; u32(D[0xffc]) == 0xA3A3F5F5
-    f8,f12,f16,f20 = u32(D[8:24]) ; nombre = D[128:128+0x400]
+    D   = A ^ block((nxt+1)*0x1000) ; u32(D[0xffc]) == 0xA3A3F5F5
+    f8,f12,f16,f20 = u32(D[8:24]) ; name = D[128:128+0x400]
 
-Sólo se leen 2 bloques por contenedor (8 KB), así que es I/O despreciable.
+Only 2 blocks are read per container (8 KB), so the I/O is negligible.
 
-Uso:
-    python3 indice_f15.py [/mnt/game/F15] [analisis/datos]
+Usage:
+    python3 indice_f15.py [/mnt/game/F15] [analysis/data]
 """
 import json
 import os

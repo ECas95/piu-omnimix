@@ -1,30 +1,30 @@
-# PIU omnimix (PRIME) — investigación, implementación y desarrollo
+# PIU omnimix (PRIME) — research, implementation and development
 
-Proyecto para convertir una imagen de **Pump It Up PRIME** en un *omnimix* autónomo para gabinete real (MK9, PIUIO, disco de 1 TB): canales personalizados con miles de canciones de otras versiones y juegos, charts generados o convertidos, BGA, banners y menús propios, todo dentro del motor original.
+A project that turns a **Pump It Up PRIME** image into a self-contained *omnimix* for a real cabinet (MK9, PIUIO, 1 TB disk): custom channels with thousands of songs from other versions and games, generated or converted charts, BGA, banners and custom menus, all inside the original engine.
 
-> **Aviso.** Este repositorio contiene **solo código, documentación e investigación**. No incluye imágenes de disco, binarios del juego, audio, video, charts oficiales, claves, ni código de descifrado, extracción de claves o emulación de protecciones/hardware. Para replicar necesitas tus propias copias obtenidas legalmente. Las partes omitidas se describen a nivel conceptual en `docs/`.
+> **Notice.** This repository contains **code, documentation and research only**. It does not include disk images, game binaries, audio, video, official charts, keys, or any code for decryption, key extraction, or emulation of protections/hardware. To reproduce the work you need your own legally obtained copies. The omitted parts are described only conceptually in `docs/`.
 
-## Contenido
+## Contents
 
-| Carpeta | Qué hay |
+| Folder | What is in it |
 |---|---|
-| `docs/` | Arquitectura, formatos, canales, proceso de build/parches, lecciones y límites |
-| `build/` | Catálogo, empaquetado de AMF, finalize, parches 1-12, ampliación de disco, scripts de instalación |
-| `build/runtime_merged17/` | Fuente C del módulo de runtime (selector, canales, noteskins) y su compilación |
-| `channels/` | Pipelines de cada canal: IIDX, INFINITY/PRO, EZ2ON, Sabin Sound Star, RISE, TECHNO MOTION, canales nuevos, anime/DJMAX |
-| `tools_formatos/` | Lectores de formatos antiguos de PIU (STX, NOT, clásicos) y utilidades |
-| `bms/` | Conversores a BMS (SSS, EZ2ON, RISE) y lector EZFF |
+| `docs/` | Architecture, formats, channels, build/patch process, lessons and limits |
+| `build/` | Catalogue, AMF packaging, finalize, patches 1–12, disk growth, install scripts |
+| `build/runtime_merged17/` | C source of the runtime module (selector, channels, noteskins) and its build |
+| `channels/` | Per-channel pipelines: IIDX, INFINITY/PRO, EZ2ON, Sabin Sound Star, RISE, TECHNO MOTION, new-song batches, anime/DJMAX |
+| `format_tools/` | Readers for old PIU formats (STX, NOT, classic) and utilities |
+| `bms/` | BMS converters (Sabin Sound Star, EZ2ON, RISE, DJMAX RESPECT) and the EZFF reader |
 
-El generador de pasos vive en su propio repositorio: **[piu-chart-generator](https://github.com/ECas95/piu-chart-generator)**.
+The step-chart generator lives in its own repository: **[piu-chart-generator](https://github.com/ECas95/piu-chart-generator)**.
 
-## Cómo se replica (visión general)
-1. Preparar tu imagen PRIME y entender el contenedor AMF (`docs/FORMATOS.md`).
-2. Convertir cada fuente a un registro de canción común (audio, BGA, banner, charts NX) con el pipeline de `channels/<fuente>/`.
-3. Generar/convertir charts (piu-chart-generator para las que no traen charts PIU).
-4. `build/build_catalog.py` → `build/package.py` → `build/finalize.py` producen AMF adicionales y la LIST.
-5. Compilar el runtime (`build/runtime_merged17/compile_runtime.py`) y aplicar parches en orden (`docs/BUILD_Y_PARCHES.md`).
+## How to reproduce (overview)
+1. Prepare your PRIME image and understand the AMF container (`docs/FORMATS.md`).
+2. Convert each source into a common song record (audio, BGA, banner, NX charts) with the pipeline in `channels/<source>/`.
+3. Generate/convert charts (piu-chart-generator for songs without PIU charts).
+4. `build/build_catalog.py` → `build/package.py` → `build/finalize.py` produce the extra AMFs and the LIST.
+5. Build the runtime (`build/runtime_merged17/compile_runtime.py`) and apply the patches in order (`docs/BUILD_AND_PATCHES.md`).
 
-Las rutas de unidad están fijas en muchos scripts (`D:\`, `E:\`): ajústalas a tu entorno.
+Many scripts hard-code drive paths (`D:\`, `E:\`) and some keep Spanish identifiers, file names and comments from the original working notes: adjust them to your environment.
 
-## Licencia
-MIT para el código propio. Los juegos, marcas y contenidos citados pertenecen a sus titulares.
+## License
+MIT for the original code. Games, trademarks and content mentioned belong to their owners.
