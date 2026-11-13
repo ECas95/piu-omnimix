@@ -20,7 +20,7 @@ Convert the source games' charts to **BMS** (keysounds where the source has them
 ## Synchronisation
 - Keysounded EZ2ON charts use the game's own timeline (self-consistent).
 - EZ2ON charts that exist only as ez2pattern BMS are aligned to `Song.mp3` with the measured per-song lag (`time in Song.mp3 = chart time + lag`). In these files wav `01` is a silent placeholder (`blank.wav`) used by every note and wav `02` is the song: the lag is expressed in the clock of the ez2pattern JSON (`time_ms`), and the web BMS puts every note exactly one measure (at the initial BPM) after that JSON time, so the `02` object is placed at BMS time `-lag + one measure` (following the file's own BPM and measure-length changes) and the BGA object at `-lag + one measure + BGA start`. If that time is negative the song is trimmed (`Song_sync.mp3`) and placed at 0. `verify_ez2on_sync.py` checks every song independently against the JSON (245/245 within 15 ms). Songs without a measurement keep the original assumption (song on measure 1).
-- RISE: `song.mp3`/`bga.mp4` are shifted so that BMS time 0 = NX beat 0.
+- RISE: NX beat 0 sits at audio time `origin`, so the first `origin` ms are cut from both `song.mp3` and `bga.mp4` (padded if negative); the BGA therefore starts with the audio, as in the PIU conversion (the charts carry no separate BGA start). All chart types are exported (RISE, ARCADE, missions); wav `01` is a silent placeholder used by notes, wav `02` is the song; fake/item notes go to invisible channels 31-39. `rise_bga_sync.py` is an experimental preview-matching tool and is not used.
 - SSS: BGA is padded with black up to the game's `.del` value (or the measured synchronisation).
 
 ## Known limits
